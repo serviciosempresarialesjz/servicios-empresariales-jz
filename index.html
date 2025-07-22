@@ -2,90 +2,276 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Servicios Empresariales JZ</title>
+  <meta name="description" content="Transformo procesos manuales en sistemas inteligentes y eficientes. Servicios empresariales, asesoría remota, automatización, CRM, gestión de proyectos y más.">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
+      font-family: 'Roboto', Arial, sans-serif;
+      background: #f8f9fa;
+      color: #222;
     }
     header {
-      background-color: #000;
+      background: #1a237e;
       color: #fff;
-      padding: 2rem;
+      padding: 2rem 0 1rem 0;
       text-align: center;
     }
-    section {
-      padding: 2rem;
+    header img {
+      max-width: 160px;
+      margin-bottom: 1.2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(30,40,100,0.12);
+      background: #fff;
+    }
+    header h1 {
+      margin: 0 0 0.5rem 0;
+      font-size: 2.5rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 0 0;
+    }
+    main {
       max-width: 1000px;
-      margin: auto;
+      margin: 2rem auto;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 12px rgba(30,40,100,0.08);
+      padding: 2rem;
+    }
+    .inicio {
+      background: #e3e6fc;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 1px 6px rgba(30,40,100,0.05);
+      text-align: center;
+    }
+    .inicio h2 {
+      color: #1a237e;
+      font-size: 2rem;
+      margin-bottom: 0.7rem;
+      font-weight: 700;
+    }
+    .inicio ul {
+      list-style: none;
+      padding: 0;
+      margin: 1rem 0;
+      text-align: left;
+      display: inline-block;
+    }
+    .inicio ul li {
+      background: #fff;
+      margin: 0.3rem 0;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      box-shadow: 0 1px 4px rgba(30,40,100,0.04);
+      display: flex;
+      align-items: center;
+    }
+    .inicio ul li::before {
+      content: "✔";
+      color: #25d366;
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+    .wa-btn {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #25d366;
+      color: #fff;
+      padding: 0.7rem 1.5rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      text-decoration: none;
+      box-shadow: 0 2px 8px rgba(37,211,102,0.1);
+      transition: background 0.2s;
+    }
+    .wa-btn:hover {
+      background: #1ebe59;
+    }
+    section {
+      margin-bottom: 2rem;
     }
     h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.5rem;
+      color: #1a237e;
+      font-size: 1.6rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
     }
     ul {
       list-style: none;
       padding: 0;
+      margin: 0;
     }
     ul li {
-      padding: 0.5rem 0;
+      background: #e3e6fc;
+      margin: 0.4rem 0;
+      padding: 0.7rem 1rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+    }
+    ul li::before {
+      content: "✓";
+      color: #3949ab;
+      font-weight: bold;
+      margin-right: 1rem;
     }
     .contacto {
-      background-color: #efefef;
-      padding: 1rem;
+      background: #f1f3f6;
+      padding: 1.5rem;
       border-radius: 8px;
-      margin-top: 2rem;
+      box-shadow: 0 1px 6px rgba(30,40,100,0.05);
+      max-width: 500px;
+      margin: 0 auto;
+      font-size: 1.1rem;
     }
-    .whatsapp {
-      color: #25D366;
+    .contacto a {
+      color: #1a237e;
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .formulario {
+      background: #e3e6fc;
+      padding: 1.5rem;
+      border-radius: 8px;
+      margin: 2rem auto 2rem auto;
+      max-width: 500px;
+      box-shadow: 0 1px 6px rgba(30,40,100,0.04);
+    }
+    .formulario label {
+      display: block;
+      margin-bottom: 0.3rem;
+      color: #1a237e;
+      font-weight: 700;
+    }
+    .formulario input, .formulario textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-family: 'Roboto', Arial, sans-serif;
+    }
+    .formulario button {
+      background: #1a237e;
+      color: #fff;
+      border: none;
+      padding: 0.7rem 1.2rem;
+      border-radius: 30px;
+      font-size: 1.1rem;
       font-weight: bold;
+      cursor: pointer;
+    }
+    .formulario button:hover {
+      background: #3949ab;
+    }
+    footer {
+      text-align: center;
+      color: #666;
+      padding: 2rem 0 1rem 0;
+      background: #f8f9fa;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+      .contacto, .formulario {
+        padding: 1rem;
+      }
+      .inicio h2 {
+        font-size: 1.3rem;
+      }
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="logo-servicios-jz.png" alt="Logotipo Servicios Empresariales JZ">
     <h1>Servicios Empresariales JZ</h1>
     <p>Transformo procesos manuales en sistemas inteligentes y eficientes</p>
   </header>
-
-  <section>
-    <h2>¿Qué Ofrecemos?</h2>
-    <ul>
-      <li>Ayudamos con todos los entornos organizacionales y ventas.</li>
-      <li>Servicios de asesorías remotas para empresas y equipos de trabajo.</li>
-      <li>Cotizaciones rápidas y directas por <span class="whatsapp">WhatsApp</span>.</li>
-    </ul>
-
-    <h2>Servicios</h2>
-    <ul>
-      <li>Automatización de Inventarios</li>
-      <li>Bases de datos de clientes (CRM personalizado)</li>
-      <li>Rastreador de proyectos y productividad</li>
-      <li>Gestión de turnos y asistencia</li>
-      <li>Administrador de tareas</li>
-      <li>Control de gastos por cliente/proyecto</li>
-      <li>Registro de visitantes</li>
-      <li>Generador de cotizaciones automáticas</li>
-      <li>Rastreador de estaciones de trabajo</li>
-      <li>Informe de incidentes y reportes automatizados</li>
-      <li>Gestión de Recursos Humanos</li>
-      <li>Onboarding digital y capacitación automatizada</li>
-      <li>Soluciones a medida según tu modelo de negocio</li>
-      <li>Acompañamiento en todos los entornos organizacionales y de ventas</li>
-      <li>Servicios de asesoría remota para empresas y fundaciones</li>
-      <li>Envío de cotizaciones rápidas por <span class="whatsapp">WhatsApp</span></li>
-    </ul>
-
-    <div class="contacto">
-      <h2>Contacto</h2>
-      <p><strong>Teléfono:</strong> 3136603230</p>
-      <p><strong>Correo:</strong> gestionempresariljz@gmail.com</p>
-      <p><strong>WhatsApp:</strong> Cotizaciones disponibles directamente</p>
+  <main>
+    <!-- INICIO -->
+    <div class="inicio">
+      <h2>¡Bienvenido a Servicios Empresariales JZ!</h2>
+      <p>Impulsa tu empresa con sistemas inteligentes y soluciones a medida:</p>
+      <ul>
+        <li>Automatización de Inventarios</li>
+        <li>CRM personalizado</li>
+        <li>Gestión de proyectos y productividad</li>
+        <li>Administrador de tareas</li>
+        <li>Control de gastos por cliente/proyecto</li>
+        <li>Onboarding digital y capacitación automatizada</li>
+        <li>¡Y mucho más!</li>
+      </ul>
+      <a href="https://wa.me/573136603230" class="wa-btn" target="_blank">Contáctame por WhatsApp</a>
     </div>
-  </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section>
+      <h2>¿Quieres más información? ¡Escríbenos!</h2>
+      <form class="formulario" action="mailto:gestionempresariljz@gmail.com" method="POST" enctype="text/plain">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="Nombre" required>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="Correo" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="Mensaje" rows="4" required></textarea>
+        <button type="submit">Contactarme</button>
+      </form>
+      <p style="text-align:center;">O escríbenos directamente al <strong>WhatsApp:</strong> <a href="https://wa.me/573136603230" class="wa-btn" target="_blank">3136603230</a></p>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section>
+      <h2>Servicios Detallados</h2>
+      <ul>
+        <li>Automatización de Inventarios</li>
+        <li>Bases de datos de clientes (CRM personalizado)</li>
+        <li>Rastreador de proyectos y productividad</li>
+        <li>Gestión de turnos y asistencia</li>
+        <li>Administrador de tareas</li>
+        <li>Control de gastos por cliente/proyecto</li>
+        <li>Registro de visitantes</li>
+        <li>Generador de cotizaciones automáticas</li>
+        <li>Rastreador de estaciones de trabajo</li>
+        <li>Informe de incidentes y reportes automatizados</li>
+        <li>Gestión de Recursos Humanos</li>
+        <li>Onboarding digital y capacitación automatizada</li>
+        <li>Soluciones a medida según tu modelo de negocio</li>
+        <li>Acompañamiento en todos los entornos organizacionales y de ventas</li>
+        <li>Servicios de asesoría remota para empresas y fundaciones</li>
+        <li>Envío de cotizaciones rápidas por WhatsApp</li>
+      </ul>
+    </section>
+
+    <!-- DATOS DE CONTACTO -->
+    <section>
+      <h2>Contacto</h2>
+      <div class="contacto">
+        <p><strong>Teléfono:</strong> <a href="tel:3136603230">3136603230</a></p>
+        <p><strong>Correo:</strong> <a href="mailto:gestionempresariljz@gmail.com">gestionempresariljz@gmail.com</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/573136603230" class="wa-btn" target="_blank">Cotizaciones disponibles directamente</a></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Servicios Empresariales JZ. Todos los derechos reservados.
+  </footer>
 </body>
 </html>

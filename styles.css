@@ -527,6 +527,12 @@ footer {
   .botones-cotizar {
     flex-direction: column;
     gap: 0.7rem;
+    .video-presentacion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
   }
 }
   }

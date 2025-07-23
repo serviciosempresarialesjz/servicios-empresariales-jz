@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Servicios Empresariales JZ</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="estilos.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;900&display=swap" rel="stylesheet">
 </head>
 <body>
 
-  <main>
-    <div class="container-header">
-      <img src="Black_and_White_Round_Fashion_Monogram_Logo-removebg-preview.png" alt="Logo JZ" class="logo">
-      <div class="header-titulos">
-        <h1>Servicios Empresariales JZ</h1>
-        <p>Transformamos procesos manuales en sistemas inteligentes y eficientes para todo tipo de negocios.</p>
-        <p>Ofrecemos asesorías remotas, automatización de procesos y cotizaciones por WhatsApp.</p>
-        <p><strong>Teléfono:</strong> 3136603230<br><strong>Email:</strong> gestionproyectosjz@gmail.com</p>
-      </div>
+  <!-- Barra de navegación -->
+  <nav class="navbar">
+    <div class="navbar-logo">
+      <img src="Black_and_White_Round_Fashion_Monogram_Logo-removebg-preview.png" alt="Logo JZ" />
+    </div>
+    <ul class="navbar-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#contacto">Cotiza</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenido principal -->
+  <main id="inicio">
+    <div class="presentacion">
+      <img src="Black_and_White_Round_Fashion_Monogram_Logo-removebg-preview.png" alt="Logo JZ" class="logo-principal">
+      <h1>Servicios Empresariales JZ</h1>
+      <p>Transformamos procesos manuales en sistemas inteligentes y eficientes adaptados a tu modelo de negocio.</p>
     </div>
 
+    <!-- Video -->
     <section class="video-presentacion">
       <div class="video-embed-responsive">
         <iframe src="https://www.youtube.com/embed/Y-Z3FGDbQ1A" 
-                title="Video de presentación"
-                frameborder="9"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
+          title="Video de presentación"
+          allowfullscreen></iframe>
       </div>
     </section>
-  </main>
 
-  <!-- Botón flotante de WhatsApp -->
-  <a href="https://wa.me/573136603230" class="btn-whatsapp" target="_blank" title="Escríbenos por WhatsApp">
-    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
-  </a>
+    <!-- Botones -->
+    <section class="botones-cotizar" id="servicios">
+      <a href="#contacto" class="btn">Cotiza tu sistema</a>
+      <a href="#contacto" class="btn">Asesoría personalizada</a>
+    </section>
+
+    <!-- Información de contacto -->
+    <section class="contacto" id="contacto">
+      <h2>¿Te interesa alguno de nuestros servicios?</h2>
+      <p>Escríbenos a: <strong>gestionproyectosjz@gmail.com</strong></p>
+      <p>O contáctanos por WhatsApp: <strong>313 660 3230</strong></p>
+    </section>
+  </main>
 
 </body>
 </html>

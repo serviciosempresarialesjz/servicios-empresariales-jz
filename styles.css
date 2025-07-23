@@ -438,4 +438,22 @@ footer {
   height: 100%;
   border: none;
   display: block;
+  .redes-sociales {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.redes-sociales a {
+  margin: 0 12px;
+  color: #333;
+  font-size: 26px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.redes-sociales a:hover {
+  color: #0077cc;
+}
+
 }

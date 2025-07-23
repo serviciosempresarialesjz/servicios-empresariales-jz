@@ -1,182 +1,127 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios Empresariales JZ</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    :root {
-      --primary-color: #000;
-      --secondary-color: #fff;
-      --accent-color: #2196f3;
-    }
-
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: var(--secondary-color);
-      color: var(--primary-color);
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      background-color: var(--primary-color);
-      color: var(--secondary-color);
-    }
-
-    header img {
-      height: 60px;
-    }
-
-    nav a {
-      margin-left: 1rem;
-      text-decoration: none;
-      color: var(--secondary-color);
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: var(--accent-color);
-    }
-
-    .container {
-      padding: 2rem;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h1, h2 {
-      color: var(--primary-color);
-    }
-
-    .video-embed-responsive {
-      position: relative;
-      padding-bottom: 56.25%;
-      height: 0;
-      overflow: hidden;
-    }
-
-    .video-embed-responsive iframe {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      top: 0;
-      border: none;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    input, textarea {
-      margin-bottom: 1rem;
-      padding: 0.5rem;
-      font-size: 1rem;
-    }
-
-    button {
-      background-color: var(--accent-color);
-      color: white;
-      border: none;
-      padding: 0.7rem;
-      cursor: pointer;
-      font-size: 1rem;
-    }
-
-    button:hover {
-      background-color: #1769aa;
-    }
-
-    /* Botón de WhatsApp */
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25d366;
-      color: white;
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      text-align: center;
-      font-size: 30px;
-      line-height: 60px;
-      z-index: 100;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    .whatsapp-float:hover {
-      background-color: #1ebea5;
-    }
-
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      nav {
-        margin-top: 0.5rem;
-      }
-
-      nav a {
-        margin: 0.5rem 0;
-      }
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
+  <!-- Encabezado principal -->
   <header>
-    <img src="logo.png" alt="Logo Servicios Empresariales JZ" />
+    <div class="container-header">
+      <img src="Black_and_White_Round_Fashion_Monogram_Logo-removebg-preview.png" alt="Logo JZ" class="logo">
+      <div class="header-titulos">
+        <h1>Servicios Empresariales JZ</h1>
+        <p>
+          En Servicios Empresariales JZ nos especializamos en transformar procesos manuales en sistemas digitales eficientes, inteligentes y completamente adaptados a tu modelo de negocio.
+        </p>
+      </div>
+    </div>
+
+    <!-- Video centrado -->
+    <section class="video-presentacion">
+      <div class="video-embed-responsive">
+        <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/_JXyQgjT1Y0" 
+          title="Video presentación Servicios Empresariales JZ" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </section>
+
+    <!-- Barra de navegación -->
     <nav>
-      <a href="#inicio">Inicio</a>
-      <a href="#servicios">Servicios</a>
-      <a href="#contacto">Cotiza</a>
+      <a href="index.html" class="active">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html" class="main-btn">Cotizar</a>
     </nav>
   </header>
 
-  <section id="inicio" class="container">
-    <h1>Bienvenidos a Servicios Empresariales JZ</h1>
-    <p>Transformamos procesos manuales en sistemas inteligentes y eficientes.</p>
-    <p><strong>Teléfono:</strong> <a href="tel:+573136603230">313 660 3230</a><br>
-    <strong>Correo:</strong> <a href="mailto:gestionproyectosjz@gmail.com">gestionproyectosjz@gmail.com</a></p>
+  <!-- Contenido principal -->
+  <main>
+    <section class="bienvenida">
+      <p>
+        Ayudamos a empresas, emprendimientos y fundaciones a optimizar su gestión con herramientas tecnológicas a medida, automatizando tareas repetitivas, mejorando la productividad y facilitando la toma de decisiones.
+      </p>
+      <p>
+        Nuestro enfoque es práctico, personalizado y directo: desde la asesoría inicial hasta la implementación final, te acompañamos en todo el proceso. Además, te entregamos cotizaciones rápidas por WhatsApp y asesoría remota cuando lo necesites.
+      </p>
 
-    <h2>Video Institucional</h2>
-    <div class="video-embed-responsive">
-      <iframe src="https://www.youtube.com/embed/_JXyQgjT1Y0"
-        title="Presentación Servicios Empresariales JZ" allowfullscreen>
-      </iframe>
-    </div>
-  </section>
+      <!-- Herramientas -->
+      <div class="herramientas-index">
+        <h3>Herramientas que utilizamos</h3>
+        <ul>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-appsheet.png" alt="AppSheet">
+            </div>
+            <span>AppSheet</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-excel.png" alt="Excel">
+            </div>
+            <span>Excel Avanzado</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-appscript.png" alt="Apps Script">
+            </div>
+            <span>Apps Script</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-googlesheet.png" alt="Google Sheets">
+            </div>
+            <span>Google Sheets</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-canva.png" alt="Canva">
+            </div>
+            <span>Canva</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-python.png" alt="Python">
+            </div>
+            <span>Python</span>
+          </li>
+        </ul>
+      </div>
 
-  <section id="servicios" class="container">
-    <h2>Servicios</h2>
-    <ul>
-      <li>Asesoría en ingeniería industrial</li>
-      <li>Diseño de sistemas automatizados</li>
-      <li>Optimización de procesos empresariales</li>
-      <li>Implementación de herramientas digitales</li>
-      <li>Capacitación y consultoría organizacional</li>
-    </ul>
-  </section>
+      <!-- Mensaje motivador -->
+      <div class="mensaje-destacado">
+        <p>💡 Haz crecer tu empresa con soluciones reales y efectivas.<br>
+        ¡Conviértete en parte del cambio digital con Servicios Empresariales JZ!</p>
+      </div>
 
-  <section id="contacto" class="container">
-    <h2>Formulario de Cotización</h2>
-    <form action="mailto:gestionproyectosjz@gmail.com" method="post" enctype="text/plain">
-      <input type="text" name="Nombre" placeholder="Tu nombre" required />
-      <input type="email" name="Email" placeholder="Tu correo" required />
-      <textarea name="Mensaje" placeholder="Cuéntanos qué necesitas..." rows="6" required></textarea>
-      <button type="submit">Enviar solicitud</button>
-    </form>
-  </section>
+      <!-- Botones -->
+      <div class="botones-cotizar">
+        <a href="contacto.html" class="main-btn main-btn-white">Solicita tu Cotización</a>
+        <a href="https://wa.me/573136603230?text=Hola%20quiero%20más%20información%20sobre%20sus%20servicios"
+           class="main-btn whatsapp-btn-section" target="_blank" aria-label="Cotiza por WhatsApp">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+          Cotizar por WhatsApp
+        </a>
+      </div>
+    </section>
+  </main>
 
-  <a href="https://wa.me/573136603230" class="whatsapp-float" target="_blank" title="Escríbenos por WhatsApp">📱</a>
+  <!-- Pie de página -->
+  <footer>
+    &copy; 2025 Servicios Empresariales JZ - Todos los derechos reservados
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://wa.me/573136603230?text=Hola%20quiero%20más%20información%20sobre%20sus%20servicios"
+     class="whatsapp-float" target="_blank" aria-label="Escríbenos por WhatsApp">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+  </a>
 
 </body>
 </html>

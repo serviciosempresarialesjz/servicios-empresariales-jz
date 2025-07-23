@@ -527,13 +527,29 @@ footer {
   .botones-cotizar {
     flex-direction: column;
     gap: 0.7rem;
-    .video-presentacion {
+   .video-presentacion {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 2rem;
 }
-  }
+
+.video-embed-responsive {
+  position: relative;
+  width: 100%;
+  max-width: 700px;
+  aspect-ratio: 16 / 9;
+  background: #000;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(33,150,243,0.13);
+}
+
+.video-embed-responsive iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
 }
   }
 }

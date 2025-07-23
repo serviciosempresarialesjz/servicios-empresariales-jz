@@ -300,5 +300,44 @@ footer {
   .welcome .info-contacto {
     flex-direction: column;
     gap: .5rem;
+    .herramientas-index {
+  margin: 2rem 0 1rem 0;
+  text-align: center;
+}
+.herramientas-index ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 1rem 0 0 0;
+  padding: 0;
+}
+.herramientas-index li {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-size: 1.1rem;
+  background: #e3f2fd;
+  border-radius: 8px;
+  padding: 0.7rem 1.3rem;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.08);
+}
+.herramientas-index img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+.mensaje-destacado {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  background: #bbdefb;
+  padding: 1.2rem;
+  border-radius: 8px;
+  color: #1769aa;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(33,150,243,0.06);
+}
   }
 }

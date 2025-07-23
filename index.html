@@ -1,56 +1,123 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios Empresariales JZ</title>
-  <link rel="stylesheet" href="estilos.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- Barra de navegación -->
-  <nav class="navbar">
-    <div class="navbar-logo">
-      <img src="Black_and_White_Round_Fashion_Monogram_Logo-removebg-preview.png" alt="Logo JZ" />
-    </div>
-    <ul class="navbar-links">
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#servicios">Servicios</a></li>
-      <li><a href="#contacto">Cotiza</a></li>
-    </ul>
-  </nav>
-
-  <!-- Contenido principal -->
-  <main id="inicio">
-    <div class="presentacion">
-      <img src="Black_and_White_Round_Fashion_Monogram_Logo-removebg-preview.png" alt="Logo JZ" class="logo-principal">
-      <h1>Servicios Empresariales JZ</h1>
-      <p>Transformamos procesos manuales en sistemas inteligentes y eficientes adaptados a tu modelo de negocio.</p>
+  <!-- Encabezado principal -->
+  <header>
+    <div class="container-header">
+      <img src="Black_and_White_Round_Fashion_Monogram_Logo-removebg-preview.png" alt="Logo JZ" class="logo">
+      <div class="header-titulos">
+        <h1>Servicios Empresariales JZ</h1>
+        <p>
+          En Servicios Empresariales JZ nos especializamos en transformar procesos manuales en sistemas digitales eficientes, inteligentes y completamente adaptados a tu modelo de negocio.
+        </p>
+      </div>
     </div>
 
-    <!-- Video -->
+    <!-- Video centrado -->
     <section class="video-presentacion">
       <div class="video-embed-responsive">
-        <iframe src="https://www.youtube.com/embed/Y-Z3FGDbQ1A" 
-          title="Video de presentación"
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y-Z3FGDbQ1A" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
           allowfullscreen></iframe>
       </div>
     </section>
 
-    <!-- Botones -->
-    <section class="botones-cotizar" id="servicios">
-      <a href="#contacto" class="btn">Cotiza tu sistema</a>
-      <a href="#contacto" class="btn">Asesoría personalizada</a>
-    </section>
+    <!-- Barra de navegación -->
+    <nav>
+      <a href="index.html" class="active">Inicio</a>
+      <a href="servicios.html">Servicios</a>
+      <a href="contacto.html" class="main-btn">Cotizar</a>
+    </nav>
+  </header>
 
-    <!-- Información de contacto -->
-    <section class="contacto" id="contacto">
-      <h2>¿Te interesa alguno de nuestros servicios?</h2>
-      <p>Escríbenos a: <strong>gestionproyectosjz@gmail.com</strong></p>
-      <p>O contáctanos por WhatsApp: <strong>313 660 3230</strong></p>
+  <!-- Contenido principal -->
+  <main>
+    <section class="bienvenida">
+      <p>
+        Ayudamos a empresas, emprendimientos y fundaciones a optimizar su gestión con herramientas tecnológicas a medida, automatizando tareas repetitivas, mejorando la productividad y facilitando la toma de decisiones.
+      </p>
+      <p>
+        Nuestro enfoque es práctico, personalizado y directo: desde la asesoría inicial hasta la implementación final, te acompañamos en todo el proceso. Además, te entregamos cotizaciones rápidas por WhatsApp y asesoría remota cuando lo necesites.
+      </p>
+
+      <!-- Herramientas -->
+      <div class="herramientas-index">
+        <h3>Herramientas que utilizamos</h3>
+        <ul>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-appsheet.png" alt="AppSheet">
+            </div>
+            <span>AppSheet</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-excel.png" alt="Excel">
+            </div>
+            <span>Excel Avanzado</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-appscript.png" alt="Apps Script">
+            </div>
+            <span>Apps Script</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-googlesheet.png" alt="Google Sheets">
+            </div>
+            <span>Google Sheets</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-canva.png" alt="Canva">
+            </div>
+            <span>Canva</span>
+          </li>
+          <li>
+            <div class="icono-herramienta">
+              <img src="icon-python.png" alt="Python">
+            </div>
+            <span>Python</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Mensaje motivador -->
+      <div class="mensaje-destacado">
+        <p>💡 Haz crecer tu empresa con soluciones reales y efectivas.<br>
+        ¡Conviértete en parte del cambio digital con Servicios Empresariales JZ!</p>
+      </div>
+
+      <!-- Botones -->
+      <div class="botones-cotizar">
+        <a href="contacto.html" class="main-btn main-btn-white">Solicita tu Cotización</a>
+        <a href="https://wa.me/573136603230?text=Hola%20quiero%20más%20información%20sobre%20sus%20servicios"
+           class="main-btn whatsapp-btn-section" target="_blank" aria-label="Cotiza por WhatsApp">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+          Cotizar por WhatsApp
+        </a>
+      </div>
     </section>
   </main>
+
+  <!-- Pie de página -->
+  <footer>
+    &copy; 2025 Servicios Empresariales JZ - Todos los derechos reservados
+  </footer>
+
+  <!-- Botón flotante WhatsApp -->
+  <a href="https://wa.me/573136603230?text=Hola%20quiero%20más%20información%20sobre%20sus%20servicios"
+     class="whatsapp-float" target="_blank" aria-label="Escríbenos por WhatsApp">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp">
+  </a>
 
 </body>
 </html>

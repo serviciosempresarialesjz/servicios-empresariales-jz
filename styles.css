@@ -37,6 +37,29 @@ header {
   flex-wrap: wrap;
 }
 
+/* Centrado y color negro para nombre y descripción */
+.container-header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #111 !important;
+}
+header h1 {
+  font-size: 2.2rem;
+  margin-bottom: .5rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #111 !important;
+}
+header p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  opacity: .96;
+  color: #222 !important;
+}
+
 .logo {
   width: 100px;
   height: 100px;
@@ -45,18 +68,6 @@ header {
   border: 2.5px solid var(--color-white);
   background: var(--color-white);
   box-shadow: 0 2px 8px rgba(33,150,243,0.10);
-}
-
-header h1 {
-  font-size: 2.2rem;
-  margin-bottom: .5rem;
-  font-weight: 800;
-  letter-spacing: 1px;
-}
-header p {
-  font-size: 1.1rem;
-  font-weight: 400;
-  opacity: .96;
 }
 
 nav {
@@ -207,8 +218,27 @@ section {
   transform: translateY(-2px) scale(1.03);
   box-shadow: 0 6px 20px #21cbf3a8;
 }
+/* Botón principal blanco */
+.main-btn-white {
+  background: #fff !important;
+  color: #1769aa !important;
+  border: 2px solid #1769aa;
+  margin-top: 2rem;
+  font-size: 1.15rem;
+  border-radius: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 9px #1976d220;
+  padding: 0.95rem 2.5rem;
+  transition: background 0.21s, color 0.21s, box-shadow 0.21s, border 0.18s, transform 0.15s;
+}
+.main-btn-white:hover {
+  background: #1769aa !important;
+  color: #fff !important;
+  border: 2px solid #fff;
+  box-shadow: 0 8px 25px #2196f370;
+  transform: scale(1.06);
+}
 
-/* Servicios y proyectos */
 .servicio-list {
   display: flex;
   flex-wrap: wrap;
@@ -289,7 +319,6 @@ section {
   font-weight: 500;
 }
 
-/* Formulario contacto */
 form {
   background: #fff;
   padding: 2rem;
@@ -343,56 +372,7 @@ footer {
   letter-spacing: 0.7px;
 }
 
-@media (max-width: 900px) {
-  .servicio-list,
-  .proyectos-list,
-  .herramientas-index ul {
-    flex-direction: column;
-    gap: 1.3rem;
-    align-items: center;
-  }
-  .container-header {
-    flex-direction: column;
-    gap: 1.3rem;
-  }
-}
-
-@media (max-width: 600px) {
-  main {
-    padding: 1rem 0.3rem;
-  }
-  section {
-    padding: 1rem 0.2rem;
-  }
-  nav {
-    flex-direction: column;
-    gap: 0.7rem;
-    font-size: 1rem;
-    border-radius: 0 0 10px 10px;
-  }
-  header h1 {
-    font-size: 1.3rem;
-  }
-  .bienvenida p {
-    font-size: 0.98rem;
-  }
-  .herramientas-index ul {
-    gap: 1rem;
-  }
-  .herramientas-index li {
-    width: 85px;
-    min-height: 84px;
-    font-size: 0.92rem;
-    padding: 0.49rem 0.3rem 0.49rem 0.3rem;
-  }
-  .icono-herramienta {
-    width: 23px;
-    height: 23px;
-  }
-  .icono-herramienta img {
-    width: 20px;
-    height: 20px;
-  /* Botón flotante WhatsApp pequeño y arriba */
+/* Botón flotante de WhatsApp pequeño y arriba */
 .whatsapp-float {
   position: fixed;
   top: 22px;
@@ -409,97 +389,53 @@ footer {
   justify-content: center;
   transition: box-shadow 0.2s, transform 0.2s;
   text-decoration: none;
+  padding: 0;
+  border: none;
 }
 .whatsapp-float img {
   width: 22px;
   height: 22px;
   filter: invert(0) brightness(1.5);
+  display: block;
 }
 .whatsapp-float:hover {
   box-shadow: 0 6px 20px #25d36650;
   transform: scale(1.10);
 }
 
-/* NAV fondo transparente y botones blancos */
-.nav-white {
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  padding: 1.2rem 0 0.7rem 0;
-}
-.nav-btn {
-  background: #fff;
-  color: #1769aa;
-  font-weight: 600;
-  border: none;
-  border-radius: 12px;
-  padding: 0.6rem 1.6rem;
-  font-size: 1.1rem;
-  letter-spacing: 0.5px;
-  box-shadow: 0 2px 8px rgba(33,150,243,0.08);
-  margin: 0 0.2rem;
-  text-decoration: none;
-  transition: background 0.18s, color 0.18s, box-shadow 0.18s, transform 0.15s;
-  outline: none;
-  cursor: pointer;
-  display: inline-block;
-}
-.nav-btn:hover, .nav-btn.active {
-  background: #1769aa;
-  color: #fff;
-  box-shadow: 0 6px 18px #2196f330;
-  transform: translateY(-2px) scale(1.04);
-}
-
-/* Botón principal blanco */
-.main-btn-white {
-  background: #fff !important;
-  color: #1769aa !important;
-  border: 2px solid #1769aa;
-  margin-top: 2rem;
-  font-size: 1.15rem;
-  border-radius: 14px;
-  font-weight: bold;
-  box-shadow: 0 2px 9px #1976d220;
-  padding: 0.95rem 2.5rem;
-  transition: background 0.21s, color 0.21s, box-shadow 0.21s, border 0.18s, transform 0.15s;
-}
-.main-btn-white:hover {
-  background: #1769aa !important;
-  color: #fff !important;
-  border: 2px solid #fff;
-  box-shadow: 0 8px 25px #2196f370;
-  transform: scale(1.06);
+@media (max-width: 900px) {
+  .servicio-list,
+  .proyectos-list,
+  .herramientas-index ul {
+    flex-direction: column;
+    gap: 1.3rem;
+    align-items: center;
+  }
+  .container-header {
+    flex-direction: column;
+    gap: 1.3rem;
+  }
 }
 
 @media (max-width:600px) {
   .whatsapp-float {
     top: 14px;
     right: 14px;
-    width: 34px;
-    height: 34px;
+    width: 32px;
+    height: 32px;
   }
   .whatsapp-float img {
-    width: 18px;
-    height: 18px;
+    width: 17px;
+    height: 17px;
   }
-  .nav-white {
+  nav {
     flex-direction: column;
     gap: 0.7rem;
     padding: 1rem 0 0.6rem 0;
-  }
-  .nav-btn {
-    width: 90%;
-    margin: 0 auto;
-    font-size: 1rem;
-    padding: 0.55rem 0.8rem;
   }
   .main-btn-white {
     width: 90%;
     font-size: 1rem;
     padding: 0.85rem 1.2rem;
-  }
-}
   }
 }

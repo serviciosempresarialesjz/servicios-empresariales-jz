@@ -446,24 +446,33 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  z-index: 999;
+  z-index: 1000;
 }
 
 .redes-sociales-derecha a {
-  font-size: 32px;
-  color: #333;
-  background: #fff;
-  padding: 12px;
+  font-size: 36px; /* tamaño más grande */
+  padding: 18px;
   border-radius: 50%;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  transition: all 0.3s ease;
+  color: white;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .redes-sociales-derecha a:hover {
-  color: white;
-  background-color: #0077cc;
+  transform: scale(1.15);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.3);
 }
 
-
+.redes-sociales-derecha .facebook {
+  background-color: #3b5998;
 }
+
+.redes-sociales-derecha .youtube {
+  background-color: #ff0000;
+}
+
+.redes-sociales-derecha .linkedin {
+  background-color: #0077b5;
+}
+

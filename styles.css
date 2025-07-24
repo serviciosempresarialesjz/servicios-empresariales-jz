@@ -444,8 +444,14 @@ footer {
   margin-top: 20px;
 }
 
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
 .redes-sociales a {
-  margin: 0 12px;
   color: #333;
   font-size: 26px;
   text-decoration: none;

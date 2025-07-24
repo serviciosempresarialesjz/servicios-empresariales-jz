@@ -438,28 +438,32 @@ footer {
   height: 100%;
   border: none;
   display: block;
-  .redes-sociales {
+.redes-sociales-derecha {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
   display: flex;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.redes-sociales {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+  flex-direction: column;
   gap: 20px;
+  z-index: 999;
 }
 
-.redes-sociales a {
+.redes-sociales-derecha a {
+  font-size: 32px;
   color: #333;
-  font-size: 26px;
-  text-decoration: none;
-  transition: color 0.3s ease;
+  background: #fff;
+  padding: 12px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  text-align: center;
 }
 
-.redes-sociales a:hover {
-  color: #0077cc;
+.redes-sociales-derecha a:hover {
+  color: white;
+  background-color: #0077cc;
 }
+
 
 }

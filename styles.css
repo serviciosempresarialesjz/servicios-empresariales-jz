@@ -474,5 +474,83 @@ footer {
 
 .redes-sociales-derecha .linkedin {
   background-color: #0077b5;
+  /* ==== ESTILO PARA LA PÁGINA DE FORMULACIÓN DE PROYECTOS ==== */
+
+.bienvenida {
+  text-align: center;
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  background-color: var(--color-gray);
+  border-radius: var(--radius-main);
+  box-shadow: var(--shadow-main);
+}
+
+.bienvenida h2 {
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.bienvenida p {
+  color: var(--color-dark-gray);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.servicio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 40px auto;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+
+.servicio-card {
+  background-color: var(--color-white);
+  padding: 20px;
+  border-radius: var(--radius-main);
+  box-shadow: var(--shadow-main);
+  text-align: center;
+  width: 280px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.servicio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.servicio-card img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 15px;
+}
+
+.servicio-card h3 {
+  color: var(--secondary);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.servicio-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.mensaje-destacado {
+  text-align: center;
+  background-color: var(--primary);
+  color: white;
+  padding: 20px;
+  margin: 50px auto;
+  max-width: 800px;
+  border-radius: var(--radius-main);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
 }
 

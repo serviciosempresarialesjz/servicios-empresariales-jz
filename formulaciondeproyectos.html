@@ -1,51 +1,118 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Formulación de Proyectos Sociales</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Formulación de Proyectos - Servicios Empresariales JZ</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+  <!-- Ajusta la ruta si tu CSS está en otro lugar -->
 </head>
 <body>
 
-  <header>
-    <h1>Formulación de Proyectos Sociales con Enfoque ODS</h1>
-    <nav>
-      <a href="index.html">Inicio</a> |
-      <a href="ods.html">ODS</a> |
-      <a href="formulaciondeproyectos.html">Formulación</a>
-    </nav>
-  </header>
+<header>
+  <div class="container-header">
+    <img src="img/logo-jz.png" alt="Logo JZ" class="logo" />
+    <div>
+      <h1>Formulación de Proyectos con Enfoque en los ODS</h1>
+      <p>Desarrollamos proyectos sociales, ambientales y económicos alineados con los Objetivos de Desarrollo Sostenible.</p>
+    </div>
+  </div>
+</header>
 
-  <main>
-    <section>
-      <h2>¿Qué es la formulación de proyectos?</h2>
-      <p>La formulación de proyectos sociales consiste en planificar, estructurar y presentar una propuesta que solucione un problema específico con impacto positivo en la comunidad.</p>
-    </section>
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="formulaciondeproyectos.html" class="active">Formulación</a>
+  <a href="servicios.html">Servicios</a>
+  <a href="contacto.html">Contacto</a>
+</nav>
 
-    <section>
-      <h2>Pasos básicos para formular un proyecto</h2>
-      <ul>
-        <li><strong>Diagnóstico:</strong> Identifica el problema central.</li>
-        <li><strong>Árbol de problemas y objetivos:</strong> Analiza causas y efectos.</li>
-        <li><strong>Marco lógico:</strong> Define objetivos, indicadores, medios de verificación y supuestos.</li>
-        <li><strong>Presupuesto:</strong> Estima los recursos necesarios.</li>
-        <li><strong>Cronograma:</strong> Establece tiempos y responsables.</li>
-      </ul>
-    </section>
+<main>
+  <section class="bienvenida">
+    <h2>¿Por qué elegirnos para tu proyecto?</h2>
+    <p>
+      En Servicios Empresariales JZ acompañamos a fundaciones, empresas y emprendedores para estructurar sus ideas en proyectos financiables y exitosos.
+    </p>
+  </section>
 
-    <section>
-      <h2>¿Necesitas ayuda profesional?</h2>
-      <p>Te apoyamos en la creación completa de tu proyecto, desde la idea hasta la presentación formal para convocatorias. <br><strong>Contáctanos vía WhatsApp al 3136603230</strong>.</p>
-      <a href="https://wa.me/573136603230" target="_blank" style="background-color:green; color:white; padding:10px 20px; text-decoration:none; border-radius:5px;">Solicita tu asesoría</a>
-    </section>
-  </main>
+  <section class="servicio-list">
+    <article class="servicio-card">
+      <img src="img/icon-diagnostico.svg" alt="Diagnóstico y línea base" />
+      <h3>Diagnóstico y línea base</h3>
+      <p>Estudio previo para conocer necesidades reales y definir metas claras.</p>
+    </article>
 
-  <footer>
-    <p>© 2025 Servicios Empresariales JZ</p>
-  </footer>
+    <article class="servicio-card">
+      <img src="img/icon-arbol.svg" alt="Árbol de problemas y objetivos" />
+      <h3>Árbol de problemas y objetivos</h3>
+      <p>Análisis lógico para construir la estructura de tu proyecto.</p>
+    </article>
+
+    <article class="servicio-card">
+      <img src="img/icon-estructura.svg" alt="Estructuración técnica" />
+      <h3>Estructuración técnica</h3>
+      <p>Redacción clara y profesional con enfoque en ODS y sostenibilidad.</p>
+    </article>
+
+    <article class="servicio-card">
+      <img src="img/icon-presupuesto.svg" alt="Presupuesto y cronograma" />
+      <h3>Presupuesto y cronograma</h3>
+      <p>Organizamos recursos y tiempos estimados para cada fase.</p>
+    </article>
+
+    <article class="servicio-card">
+      <img src="img/icon-evaluacion.svg" alt="Instrumentos de evaluación" />
+      <h3>Instrumentos de evaluación</h3>
+      <p>Diseño de encuestas, entrevistas y formatos para seguimiento.</p>
+    </article>
+
+    <article class="servicio-card">
+      <img src="img/icon-postulacion.svg" alt="Postulación a convocatorias" />
+      <h3>Postulación a convocatorias</h3>
+      <p>Acompañamiento para aplicar a fondos, becas y subvenciones.</p>
+    </article>
+  </section>
+
+  <section class="mensaje-destacado">
+    <p>
+      ¿Necesitas ayuda para estructurar tu idea en un proyecto financiable? Escríbenos y empieza hoy mismo.
+    </p>
+  </section>
+
+  <section class="formulario-contacto" style="max-width:600px; margin:auto; padding: 20px;">
+    <form action="mailto:gestionempresariljz@gmail.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar Consulta</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  <p>© 2025 Servicios Empresariales JZ - Todos los derechos reservados</p>
+</footer>
+
+<a href="https://wa.me/573136603230" class="whatsapp-float" target="_blank" title="Contáctanos por WhatsApp">
+  <img src="img/whatsapp-icon.svg" alt="WhatsApp" />
+</a>
+
+<div class="redes-sociales-derecha">
+  <a href="https://www.facebook.com/ServiciosEmpresarialesJZ" class="facebook" target="_blank" title="Facebook">
+    <img src="img/facebook-icon.svg" alt="Facebook" />
+  </a>
+  <a href="https://www.youtube.com/@ServiciosEmpresarialesJZ" class="youtube" target="_blank" title="YouTube">
+    <img src="img/youtube-icon.svg" alt="YouTube" />
+  </a>
+  <a href="https://www.linkedin.com/in/servicios-empresariales-jz" class="linkedin" target="_blank" title="LinkedIn">
+    <img src="img/linkedin-icon.svg" alt="LinkedIn" />
+  </a>
+</div>
 
 </body>
 </html>
-

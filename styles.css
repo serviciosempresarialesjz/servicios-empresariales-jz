@@ -440,6 +440,7 @@ footer {
   display: block;
 }
 
+/* Redes sociales derecha */
 .redes-sociales-derecha {
   position: fixed;
   top: 50%;
@@ -534,73 +535,4 @@ footer {
 }
 
 .servicio-card h3 {
-  color: var(--secondary);
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.servicio-card p {
-  font-size: 0.95rem;
-  color: #555;
-}
-
-/* Mensaje destacado */
-.mensaje-destacado {
-  text-align: center;
-  background-color: var(--primary);
-  color: white;
-  padding: 20px;
-  margin: 50px auto;
-  max-width: 800px;
-  border-radius: var(--radius-main);
-  font-size: 1.1rem;
-  font-weight: bold;
-}
-
-/* ==== DISEÑO RESPONSIVO ==== */
-
-@media (max-width: 768px) {
-  .servicio-list {
-    flex-direction: column;
-    align-items: center;
-    padding: 0 10px;
-  }
-
-  .servicio-card {
-    width: 90%;
-    margin-bottom: 20px;
-  }
-
-  .bienvenida h2 {
-    font-size: 1.5rem;
-  }
-
-  .bienvenida p {
-    font-size: 0.95rem;
-  }
-
-  .mensaje-destacado {
-    font-size: 1rem;
-    padding: 15px;
-  }
-}
-
-@media (max-width: 480px) {
-  .bienvenida h2 {
-    font-size: 1.3rem;
-  }
-
-  .bienvenida p,
-  .mensaje-destacado {
-    font-size: 0.9rem;
-  }
-
-  .servicio-card h3 {
-    font-size: 1rem;
-  }
-
-  .servicio-card p {
-    font-size: 0.85rem;
-  }
-}
-
+  color: var(--secondary

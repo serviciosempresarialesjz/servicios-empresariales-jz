@@ -1,8 +1,8 @@
 :root {
-  --color-primary: #222; /* Negro elegante */
-  --color-secondary: #555; /* Gris oscuro para detalles */
-  --color-background: #f9f9f9; /* Fondo suave */
-  --color-accent: #333; /* Para resaltar títulos */
+  --color-primary: #222;
+  --color-secondary: #555;
+  --color-background: #f9f9f9;
+  --color-accent: #333;
   --color-white: #fff;
   --radius-main: 12px;
   --shadow-main: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -68,6 +68,7 @@ section {
   padding: 2rem;
   border-radius: var(--radius-main);
   box-shadow: var(--shadow-main);
+  margin-bottom: 2rem;
 }
 
 footer {
@@ -86,4 +87,6 @@ footer {
 
 .redes-sociales a:hover {
   text-decoration: underline;
+}
+
 }

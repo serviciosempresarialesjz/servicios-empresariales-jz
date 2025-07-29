@@ -7,111 +7,54 @@
   <link rel="stylesheet" href="css/estilos.css" />
 </head>
 <body>
-
-<header>
-  <div class="container-header">
-    <img src="img/logo-jz.png" alt="Logo JZ" class="logo" />
-    <div>
-      <h1>Formulación de Proyectos con Enfoque en los ODS</h1>
-      <p>Desarrollamos proyectos sociales, ambientales y económicos alineados con los Objetivos de Desarrollo Sostenible.</p>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Servicios Empresariales JZ</h1>
+      <nav class="nav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="formulaciondeproyectos.html" class="active">Formulación de Proyectos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </div>
-  </div>
-</header>
+  </header>
 
-<nav>
-  <a href="index.html">Inicio</a>
-  <a href="formulaciondeproyectos.html" class="active">Formulación</a>
-  <a href="servicios.html">Servicios</a>
-  <a href="contacto.html">Contacto</a>
-</nav>
+  <main class="container">
+    <section>
+      <h2>Formulación de Proyectos con Enfoque en ODS</h2>
+      <p>
+        Acompañamos a organizaciones en el diseño, estructuración y formulación de proyectos sociales, culturales y productivos con enfoque en los Objetivos de Desarrollo Sostenible (ODS). Nuestro equipo cuenta con experiencia en la elaboración de proyectos para convocatorias públicas y privadas a nivel nacional e internacional.
+      </p>
 
-<main>
-  <section class="bienvenida">
-    <h2>¿Por qué elegirnos para tu proyecto?</h2>
-    <p>
-      En Servicios Empresariales JZ acompañamos a fundaciones, empresas y emprendedores para estructurar sus ideas en proyectos financiables y exitosos.
-    </p>
-  </section>
+      <h3>¿Qué incluye nuestro servicio?</h3>
+      <ul>
+        <li>Diagnóstico y análisis de problemas</li>
+        <li>Árbol de problemas y árbol de objetivos</li>
+        <li>Formulación con metodología de marco lógico</li>
+        <li>Presupuesto detallado y cronograma</li>
+        <li>Instrumentos de recolección de línea base</li>
+        <li>Asesoría para postulación a convocatorias</li>
+      </ul>
 
-  <section class="servicio-list">
-    <article class="servicio-card">
-      <img src="img/icon-diagnostico.svg" alt="Diagnóstico y línea base" />
-      <h3>Diagnóstico y línea base</h3>
-      <p>Estudio previo para conocer necesidades reales y definir metas claras.</p>
-    </article>
+      <h3>¿A quién va dirigido?</h3>
+      <p>
+        A fundaciones, organizaciones sociales, emprendimientos con enfoque comunitario y empresas que deseen estructurar iniciativas de alto impacto.
+      </p>
+    </section>
+  </main>
 
-    <article class="servicio-card">
-      <img src="img/icon-arbol.svg" alt="Árbol de problemas y objetivos" />
-      <h3>Árbol de problemas y objetivos</h3>
-      <p>Análisis lógico para construir la estructura de tu proyecto.</p>
-    </article>
-
-    <article class="servicio-card">
-      <img src="img/icon-estructura.svg" alt="Estructuración técnica" />
-      <h3>Estructuración técnica</h3>
-      <p>Redacción clara y profesional con enfoque en ODS y sostenibilidad.</p>
-    </article>
-
-    <article class="servicio-card">
-      <img src="img/icon-presupuesto.svg" alt="Presupuesto y cronograma" />
-      <h3>Presupuesto y cronograma</h3>
-      <p>Organizamos recursos y tiempos estimados para cada fase.</p>
-    </article>
-
-    <article class="servicio-card">
-      <img src="img/icon-evaluacion.svg" alt="Instrumentos de evaluación" />
-      <h3>Instrumentos de evaluación</h3>
-      <p>Diseño de encuestas, entrevistas y formatos para seguimiento.</p>
-    </article>
-
-    <article class="servicio-card">
-      <img src="img/icon-postulacion.svg" alt="Postulación a convocatorias" />
-      <h3>Postulación a convocatorias</h3>
-      <p>Acompañamiento para aplicar a fondos, becas y subvenciones.</p>
-    </article>
-  </section>
-
-  <section class="mensaje-destacado">
-    <p>
-      ¿Necesitas ayuda para estructurar tu idea en un proyecto financiable? Escríbenos y empieza hoy mismo.
-    </p>
-  </section>
-
-  <section class="formulario-contacto" style="max-width:600px; margin:auto; padding: 20px;">
-    <form action="mailto:gestionempresariljz@gmail.com" method="post" enctype="text/plain">
-      <label for="nombre">Nombre completo:</label>
-      <input type="text" id="nombre" name="nombre" required />
-
-      <label for="email">Correo electrónico:</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="mensaje">Mensaje:</label>
-      <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-
-      <button type="submit">Enviar Consulta</button>
-    </form>
-  </section>
-</main>
-
-<footer>
-  <p>© 2025 Servicios Empresariales JZ - Todos los derechos reservados</p>
-</footer>
-
-<a href="https://wa.me/573136603230" class="whatsapp-float" target="_blank" title="Contáctanos por WhatsApp">
-  <img src="img/whatsapp-icon.svg" alt="WhatsApp" />
-</a>
-
-<div class="redes-sociales-derecha">
-  <a href="https://www.facebook.com/ServiciosEmpresarialesJZ" class="facebook" target="_blank" title="Facebook">
-    <img src="img/facebook-icon.svg" alt="Facebook" />
-  </a>
-  <a href="https://www.youtube.com/@ServiciosEmpresarialesJZ" class="youtube" target="_blank" title="YouTube">
-    <img src="img/youtube-icon.svg" alt="YouTube" />
-  </a>
-  <a href="https://www.linkedin.com/in/servicios-empresariales-jz" class="linkedin" target="_blank" title="LinkedIn">
-    <img src="img/linkedin-icon.svg" alt="LinkedIn" />
-  </a>
-</div>
-
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Servicios Empresariales JZ. Todos los derechos reservados.</p>
+      <div class="redes-sociales">
+        <a href="https://www.facebook.com/ServiciosEmpresarialesJZ" target="_blank">Facebook</a> |
+        <a href="https://www.youtube.com/@ServiciosEmpresarialesJZ" target="_blank">YouTube</a> |
+        <a href="https://www.linkedin.com/in/servicios-empresariales-jz" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>

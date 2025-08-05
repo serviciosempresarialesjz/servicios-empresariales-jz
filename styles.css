@@ -1,51 +1,26 @@
-/* ===============================
-   VARIABLES (Colores y Tipografía)
-   =============================== */
 :root {
-  --color-principal: #7B9E89;       /* Verde oliva suave */
-  --color-secundario: #F4F1ED;      /* Beige cálido */
-  --color-texto: #333333;           /* Texto principal */
-  --color-texto-secundario: #666666;/* Texto secundario */
-  --color-fondo-claro: #F9F9F9;     /* Fondo alterno */
-  --color-acento: #4A90A4;          /* Azul verdoso suave */
-  --color-borde: #CCCCCC;           /* Líneas y bordes */
-  --fuente-principal: 'Segoe UI', sans-serif;
-}
-
-/* ===============================
-   RESET GENERAL
-   =============================== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --color-blue: #44626D;
+  --color-blue-dark: #2E4A56;
+  --color-white: #ffffff;
+  --color-gray: #f0f2f5;
+  --color-dark-gray: #1b2836;
+  --primary: var(--color-blue);
+  --secondary: #333;
+  --radius-main: 14px;
+  --shadow-main: 0 2px 12px rgba(33, 150, 243, 0.08);
 }
 
 body {
-  font-family: var(--fuente-principal);
-  background-color: var(--color-secundario);
-  color: var(--color-texto);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
   line-height: 1.6;
+  background-color: var(--color-gray);
+  color: var(--color-dark-gray);
 }
 
-/* ===============================
-   ENCABEZADOS Y TEXTO
-   =============================== */
-h1, h2, h3, h4, h5, h6 {
-  color: var(--color-principal);
-  margin-bottom: 0.5em;
-}
-
-p {
-  margin-bottom: 1em;
-  color: var(--color-texto);
-}
-
-/* ===============================
-   ENLACES
-   =============================== */
 a {
-  color: var(--color-acento);
+  color: var(--primary);
   text-decoration: none;
 }
 
@@ -53,80 +28,70 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ===============================
-   BOTONES
-   =============================== */
-button, .btn {
-  background-color: var(--color-principal);
-  color: white;
-  padding: 0.6em 1.2em;
+header {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: var(--shadow-main);
+}
+
+.card {
+  background-color: var(--color-white);
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: var(--radius-main);
+  box-shadow: var(--shadow-main);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary);
+  color: var(--color-white);
   border: none;
-  border-radius: 5px;
+  border-radius: var(--radius-main);
   cursor: pointer;
+  font-weight: 600;
   transition: background-color 0.3s ease;
 }
 
-button:hover, .btn:hover {
-  background-color: var(--color-acento);
+.btn:hover {
+  background-color: var(--color-blue-dark);
 }
 
-/* ===============================
-   SECCIONES Y LAYOUT
-   =============================== */
-section {
-  padding: 2em;
-  background-color: var(--color-fondo-claro);
-  border-bottom: 1px solid var(--color-borde);
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 1em;
-}
-
-/* ===============================
-   TARJETAS Y COMPONENTES
-   =============================== */
-.card {
-  background-color: white;
-  border: 1px solid var(--color-borde);
-  border-radius: 8px;
-  padding: 1.5em;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
-  margin-bottom: 2em;
-}
-
-/* ===============================
-   PIE DE PÁGINA
-   =============================== */
-footer {
-  background-color: var(--color-principal);
-  color: white;
+.volver-inicio {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: var(--radius-main);
+  margin-top: 1rem;
   text-align: center;
-  padding: 1.5em 0;
-  margin-top: 2em;
+  transition: all 0.3s ease-in-out;
 }
 
-/* ===============================
-   UTILIDADES
-   =============================== */
+.volver-inicio:hover {
+  background-color: var(--primary);
+  color: var(--color-white);
+}
+
 .text-center {
   text-align: center;
 }
 
 .mt-2 {
-  margin-top: 2em;
+  margin-top: 2rem;
 }
 
-.mb-2 {
-  margin-bottom: 2em;
-}
+@media (max-width: 768px) {
+  .card {
+    margin: 1rem 0.5rem;
+  }
 
-.pt-2 {
-  padding-top: 2em;
-}
-
-.pb-2 {
-  padding-bottom: 2em;
+  .btn, .volver-inicio {
+    width: 100%;
+    text-align: center;
+  }
 }

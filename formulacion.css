@@ -1,92 +1,128 @@
-/* === PALETA DE COLORES PALO ROSA CORPORATIVO === */
+/* ============================
+   🎨 Paleta de colores palo rosa
+   ============================ */
 :root {
-  --color-primario: #d88c9a; /* Palo rosa elegante */
-  --color-secundario: #f2d0d9;
-  --color-texto: #333;
-  --color-fondo: #fff;
-  --color-hover: #c07383;
-  --color-borde: #e4b1c0;
+  --color-primario: #E8AEB7;
+  --color-primario-oscuro: #D18591;
+  --color-fondo: #fff8f9;
+  --color-texto: #3a3a3a;
+  --color-blanco: #ffffff;
+  --color-gris: #e5e5e5;
 }
 
-/* === ESTILOS GENERALES === */
+/* ============================
+   🌐 Estilos generales
+   ============================ */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--color-fondo);
   color: var(--color-texto);
 }
 
-h1, h2 {
-  color: var(--color-primario);
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primario-oscuro);
 }
 
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
-/* === LISTAS === */
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-  line-height: 1.6;
-}
-
-/* === BOTÓN WHATSAPP FLOTANTE === */
-.whatsapp-float {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
+/* ============================
+   🧭 Navegación y botones
+   ============================ */
+.btn, .volver-inicio {
   background-color: var(--color-primario);
-  color: white;
-  padding: 12px 18px;
-  border-radius: 50px;
+  color: var(--color-blanco);
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 8px;
   text-decoration: none;
-  font-weight: bold;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+  cursor: pointer;
   transition: background-color 0.3s ease;
-  z-index: 1000;
-  font-size: 14px;
 }
 
-.whatsapp-float:hover {
-  background-color: var(--color-hover);
+.btn:hover, .volver-inicio:hover {
+  background-color: var(--color-primario-oscuro);
 }
 
-/* === IFRAME VIDEO === */
-iframe {
+.volver-inicio {
+  display: inline-block;
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+/* ============================
+   🧾 Secciones y tarjetas
+   ============================ */
+.card {
+  background-color: var(--color-blanco);
+  border: 1px solid var(--color-gris);
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2em;
+  margin: 2em 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
-/* === ENLACES === */
-a {
-  color: var(--color-primario);
+/* ============================
+   📱 Responsive design
+   ============================ */
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5em;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ============================
+   📞 Botón flotante WhatsApp
+   ============================ */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #E8AEB7;
+  color: white;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  font-size: 20px;
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--color-hover);
-  text-decoration: underline;
+.whatsapp-btn:hover {
+  background-color: #D18591;
 }
 
-/* === RESPONSIVE === */
-@media (max-width: 768px) {
-  .container {
-    padding: 1rem;
-  }
-
-  .whatsapp-float {
-    font-size: 12px;
-    padding: 10px 14px;
-  }
-
-  iframe {
-    width: 100% !important;
-    height: auto !important;
-  }
+/* ============================
+   🔗 Redes sociales
+   ============================ */
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-top: 1em;
 }
 
+.social-icons a {
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+.social-icons a:hover {
+  background-color: var(--color-primario-oscuro);
 }

@@ -145,4 +145,51 @@ footer {
 
 .pb-2 {
   padding-bottom: 2em;
+   :root {
+  --color-background: #f7f7f7;
+  --color-section: #ffffff;
+  --color-text: #333333;
+  --color-btn: #888888;
+  --color-btn-hover: #555555;
+  --color-accent: #28a745; /* o #0056b3 según tu preferencia */
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text);
+}
+
+section {
+  background: var(--color-section);
+}
+
+nav, .header {
+  background: var(--color-section);
+  color: var(--color-text);
+}
+
+.main-btn,
+.contact-btn {
+  background: var(--color-btn);
+  color: var(--color-section);
+}
+
+.main-btn:hover,
+.contact-btn:hover {
+  background: var(--color-btn-hover);
+}
+
+.whatsapp-btn-section {
+  background: var(--color-accent);
+  color: #ffffff;
+}
+.whatsapp-btn-section:hover {
+  filter: brightness(0.9);
+}
+
+.bienvenida, .mensaje-destacado {
+  background: var(--color-section);
+  color: var(--color-text);
+}
+
 }

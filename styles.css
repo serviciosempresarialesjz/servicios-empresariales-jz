@@ -2,13 +2,13 @@
    VARIABLES (Colores y Tipografía)
    =============================== */
 :root {
-  --color-principal: #C2889F;       /* Palo rosa suave */
-  --color-secundario: #FDF6F9;      /* Fondo claro palo rosa */
-  --color-texto: #3A3A3A;           /* Texto principal gris oscuro */
+  --color-principal: #708090;       /* Gris azulado suave */
+  --color-secundario: #F5F7FA;      /* Fondo claro neutro */
+  --color-texto: #2F2F2F;           /* Texto principal gris oscuro */
   --color-texto-secundario: #6D6D6D;/* Texto secundario gris medio */
   --color-fondo-claro: #FFFFFF;     /* Fondo alterno blanco */
-  --color-acento: #A26689;          /* Acento palo rosa más profundo */
-  --color-borde: #E6D8DC;           /* Líneas y bordes suaves */
+  --color-acento: #4C6A92;          /* Acento azul profundo */
+  --color-borde: #DDE2E6;           /* Líneas y bordes suaves */
   --fuente-principal: 'Segoe UI', sans-serif;
 }
 
@@ -67,6 +67,22 @@ button, .btn {
 }
 
 button:hover, .btn:hover {
+  background-color: var(--color-acento);
+}
+
+/* Botón volver al inicio */
+.volver-inicio {
+  display: inline-block;
+  background-color: var(--color-principal);
+  color: white;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-top: 2em;
+  transition: background-color 0.3s ease;
+}
+
+.volver-inicio:hover {
   background-color: var(--color-acento);
 }
 
@@ -130,4 +146,3 @@ footer {
 .pb-2 {
   padding-bottom: 2em;
 }
-

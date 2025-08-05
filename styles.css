@@ -2,13 +2,13 @@
    VARIABLES (Colores y Tipografía)
    =============================== */
 :root {
-  --color-principal: #C2889F;       /* Palo rosa suave */
-  --color-secundario: #FDF6F9;      /* Fondo claro palo rosa */
-  --color-texto: #3A3A3A;           /* Texto principal gris oscuro */
-  --color-texto-secundario: #6D6D6D;/* Texto secundario gris medio */
-  --color-fondo-claro: #FFFFFF;     /* Fondo alterno blanco */
-  --color-acento: #A26689;          /* Acento palo rosa más profundo */
-  --color-borde: #E6D8DC;           /* Líneas y bordes suaves */
+  --color-principal: #7B9E89;       /* Verde oliva suave */
+  --color-secundario: #F4F1ED;      /* Beige cálido */
+  --color-texto: #333333;           /* Texto principal */
+  --color-texto-secundario: #666666;/* Texto secundario */
+  --color-fondo-claro: #F9F9F9;     /* Fondo alterno */
+  --color-acento: #4A90A4;          /* Azul verdoso suave */
+  --color-borde: #CCCCCC;           /* Líneas y bordes */
   --fuente-principal: 'Segoe UI', sans-serif;
 }
 

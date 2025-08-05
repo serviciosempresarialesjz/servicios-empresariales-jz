@@ -10,6 +10,11 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      min-height: 100vh;
       text-align: center;
     }
 
@@ -41,16 +46,23 @@
     section {
       margin: 2rem auto;
       max-width: 800px;
-      text-align: left;
     }
 
     ul {
       text-align: left;
-      margin-left: 20%;
+      display: inline-block;
+      text-align: left;
+      margin: 0 auto;
     }
 
     iframe {
       border: none;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1000px;
+      padding: 20px;
     }
   </style>
 </head>
@@ -93,7 +105,6 @@
   </div>
 </body>
 </html>
-
 
 
 

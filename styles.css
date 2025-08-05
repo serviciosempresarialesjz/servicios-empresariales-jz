@@ -1,92 +1,101 @@
+/* ============================
+   🎨 Paleta de colores palo rosa
+   ============================ */
 :root {
-  --color-palo-rosa: #d9a5b3;
-  --color-palo-rosa-oscuro: #b07588;
-  --color-white: #fff;
-  --color-gray: #f4f8fb;
-  --color-dark-gray: #1b2836;
-
-  --primary: var(--color-palo-rosa);
-  --secondary: #333;
-
-  --radius-main: 14px;
-  --shadow-main: 0 2px 12px rgba(217, 165, 179, 0.12);
+  --color-primario: #D49FA6;
+  --color-primario-oscuro: #B97C85;
+  --color-fondo: #f8f9fa;
+  --color-texto: #333;
+  --color-blanco: #fff;
+  --color-gris: #e0e0e0;
 }
 
+/* ============================
+   🌐 Estilos generales
+   ============================ */
 body {
-  font-family: 'Segoe UI', Arial, sans-serif;
-  background: var(--color-gray);
-  color: var(--secondary);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
 }
 
-header {
-  background: linear-gradient(90deg, var(--primary) 60%, var(--color-palo-rosa-oscuro) 100%);
-  color: var(--color-white);
-  padding: 2.2rem 0 1rem 0;
-  box-shadow: var(--shadow-main);
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-primario-oscuro);
 }
 
-nav {
-  background: var(--color-palo-rosa-oscuro);
-  padding: 1rem 0;
-  display: flex;
-  justify-content: center;
-  gap: 2.3rem;
-  font-size: 1.13rem;
-  border-radius: 0 0 var(--radius-main) var(--radius-main);
-}
-
-nav a {
-  color: var(--color-white);
+/* ============================
+   🧭 Navegación y botones
+   ============================ */
+.btn, .volver-inicio {
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  padding: 0.7em 1.5em;
+  border: none;
+  border-radius: 8px;
   text-decoration: none;
-  letter-spacing: 1px;
-  padding: 0.5rem 1.5rem;
-  border-radius: 6px;
-  transition: background 0.16s, color 0.16s, box-shadow 0.2s;
-  font-weight: 500;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-nav a:hover,
-nav a.active {
-  background: #f3dce3;
-  color: var(--color-palo-rosa-oscuro);
-  box-shadow: 0 2px 8px #f3dce3b4;
+.btn:hover, .volver-inicio:hover {
+  background-color: var(--color-primario-oscuro);
 }
 
-/* Redes sociales organizadas a la derecha */
-.redes-sociales-derecha {
+.volver-inicio {
+  display: inline-block;
+  margin-top: 1em;
+  font-size: 0.9em;
+}
+
+/* ============================
+   🧾 Secciones y tarjetas
+   ============================ */
+.card {
+  background-color: var(--color-blanco);
+  border: 1px solid var(--color-gris);
+  border-radius: 12px;
+  padding: 2em;
+  margin: 2em 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* ============================
+   📱 Responsive design
+   ============================ */
+@media (max-width: 768px) {
+  .card {
+    padding: 1.5em;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* ============================
+   📞 Botón flotante WhatsApp
+   ============================ */
+.whatsapp-btn {
   position: fixed;
-  top: 50%;
+  bottom: 20px;
   right: 20px;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  z-index: 1000;
-}
-
-.redes-sociales-derecha a {
-  font-size: 36px;
-  padding: 18px;
-  border-radius: 50%;
+  background-color: #25D366;
   color: white;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.redes-sociales-derecha a:hover {
-  transform: scale(1.15);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
-}
-
-.redes-sociales-derecha .facebook {
-  background-color: #3b5998;
-}
-
-.redes-sociales-derecha .youtube {
-  background-color: #ff0000;
-}
-
-.redes-sociales-derecha .linkedin {
-  background-color: #0077b5;
+.whatsapp-btn:hover {
+  background-color: #1ebc59;
 }

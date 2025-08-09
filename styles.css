@@ -90,6 +90,29 @@ section h2 {
 }
 
 /* =========================
+   Video centrado con fondo neutro para integración de color
+========================= */
+.video-presentacion {
+  text-align: center;
+  margin: 30px 0;
+  background-color: #f9f5f7; /* un color suave similar a palo rosa claro */
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: var(--shadow-main);
+}
+
+.video-presentacion iframe {
+  width: 90%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+/* =========================
    Lista de servicios
 ========================= */
 .servicio-list {
@@ -177,39 +200,38 @@ section h2 {
 }
 
 /* =========================
-   Proyectos (similar estilo)
+   Herramientas que utilizamos (íconos más pequeños y organizados)
 ========================= */
-.proyectos-list {
+.herramientas-index ul {
+  list-style: none;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
 }
 
-.proyecto-card {
-  width: 280px;
-  border-radius: var(--radius-main);
-  box-shadow: var(--shadow-main);
-  border: 1px solid #bbdefb;
-  padding: 15px;
-  text-align: center;
-  background-color: var(--color-blanco);
-  transition: box-shadow 0.3s ease;
-}
-
-.proyecto-card:hover {
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-.proyecto-card img {
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 15px;
-}
-
-.proyecto-card h4 {
+.herramientas-index li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  font-size: 0.85rem;
   color: var(--color-primario-oscuro);
-  font-weight: 600;
+}
+
+.icono-herramienta img {
+  max-width: 40px;
+  height: auto;
+  display: block;
+  margin: 0 auto 6px auto;
+  transition: transform 0.3s ease;
+}
+
+.herramientas-index li:hover .icono-herramienta img {
+  transform: scale(1.1);
 }
 
 /* =========================
@@ -263,53 +285,16 @@ footer {
 }
 
 /* =========================
-   Herramientas que utilizamos (íconos más pequeños y organizados)
-========================= */
-.herramientas-index ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;              /* Espacio entre íconos */
-  max-width: 600px;       /* Limita ancho para que no queden muy dispersos */
-  margin: 0 auto 2rem auto; /* Centrado horizontal y margen abajo */
-}
-
-.herramientas-index li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80px;            /* Tamaño fijo para cada ícono + texto */
-  font-size: 0.85rem;     /* Texto un poco más pequeño */
-  color: var(--color-primario-oscuro);
-}
-
-.icono-herramienta img {
-  max-width: 40px;        /* Íconos más pequeños */
-  height: auto;
-  display: block;
-  margin: 0 auto 6px auto;
-  transition: transform 0.3s ease;
-}
-
-.herramientas-index li:hover .icono-herramienta img {
-  transform: scale(1.1);
-}
-
-/* =========================
    Responsive - Móvil y tabletas
 ========================= */
 @media (max-width: 900px) {
-  .servicio-list,
-  .proyectos-list {
+  .servicio-list {
     flex-direction: column;
     gap: 20px;
     align-items: center;
   }
 
-  .servicio-card,
-  .proyecto-card {
+  .servicio-card {
     width: 100%;
     max-width: 360px;
   }
@@ -366,5 +351,3 @@ footer {
     border-radius: 50%;
   }
 }
-
-

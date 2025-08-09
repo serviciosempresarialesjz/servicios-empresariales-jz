@@ -1,66 +1,241 @@
-/* 🎨 Variables de color */
-:root {
+/* ============================
+   🎨 Paleta de colores palo rosa
+   ============================ */
+  :root {
   --color-primario: #d8a7b1; /* Palo rosa */
   --color-primario-oscuro: #b17a82;
-  --color-texto: #333;
-  --color-fondo: #fff;
 }
 
-/* Estilo general */
-body {
+  --color-primario: #E8AEB7;
+  --color-primario-oscuro: #D18591;
+  --color-fondo: #fff8f9;
+  --color-texto: #3a3a3a;
+  --color-blanco: #ffffff;
+  --color-gris: #e5e5e5;
+  --radius-main: 14px;
+  --shadow-main: 0 2px 12px rgba(216, 150, 160, 0.15);
+  --secondary: #3a3a3a;
+  --color-dark-gray: #1b2836;
+}
+
+/* ===== RESET ===== */
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: var(--color-fondo);
-  color: var(--color-texto);
+  padding: 0;
 }
 
-/* Encabezado */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: var(--color-gris);
+  color: var(--secondary);
+}
+
+/* ===== HEADER ===== */
 header {
-  background-color: var(--color-primario);
-  color: white;
-  padding: 20px;
+  background: linear-gradient(90deg, var(--color-primario) 60%, var(--color-primario-oscuro) 100%);
+  color: var(--color-blanco);
+  padding: 2.2rem 0 1rem 0;
+  box-shadow: var(--shadow-main);
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.container-header > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
 }
 
-/* Links normales */
-a {
-  color: var(--color-primario-oscuro);
+header h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+  color: #111;
+}
+
+header p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #222;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  border-radius: 50%;
+  border: 2.5px solid var(--color-blanco);
+  background: var(--color-blanco);
+  box-shadow: 0 2px 8px rgba(216, 150, 160, 0.2);
+}
+
+/* ===== NAV ===== */
+nav {
+  background: var(--color-primario-oscuro);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2.3rem;
+  font-size: 1.13rem;
+  border-radius: 0 0 var(--radius-main) var(--radius-main);
+}
+
+nav a {
+  color: var(--color-blanco);
+  text-decoration: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 6px;
+  transition: background 0.2s, color 0.2s;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav a.active {
+  background: var(--color-primario);
+  color: var(--color-texto);
+  box-shadow: 0 2px 8px rgba(216, 150, 160, 0.4);
+}
+
+/* ===== BOTONES ===== */
+.contact-btn,
+.main-btn {
+  background: linear-gradient(90deg, var(--color-primario) 70%, var(--color-primario-oscuro) 100%);
+  color: #fff;
+  padding: 0.85rem 2.4rem;
+  border-radius: 7px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.1rem;
+  box-shadow: 0 1.5px 8px rgba(216, 150, 160, 0.5);
+  transition: all 0.2s;
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--color-primario);
-}
-
-/* Menú */
-nav a {
-  padding: 10px 15px;
-  display: inline-block;
-  font-weight: bold;
-}
-
-nav a.active {
-  background-color: var(--color-primario-oscuro);
-  color: white;
-}
-
-/* Botones principales */
-.main-btn {
-  background-color: var(--color-primario);
-  color: white;
-  padding: 10px 15px;
-  border-radius: 5px;
-}
-
+.contact-btn:hover,
 .main-btn:hover {
-  background-color: var(--color-primario-oscuro);
+  background: linear-gradient(90deg, var(--color-primario-oscuro) 70%, var(--color-primario) 100%);
+  color: var(--color-texto);
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 20px rgba(216, 150, 160, 0.5);
 }
 
-/* Footer */
+.main-btn-white {
+  background: #fff;
+  color: var(--color-primario-oscuro);
+  border: 2px solid var(--color-primario-oscuro);
+  font-size: 1.15rem;
+  border-radius: 14px;
+  font-weight: bold;
+  box-shadow: 0 2px 9px rgba(216, 150, 160, 0.3);
+  padding: 0.95rem 2.5rem;
+  transition: all 0.2s;
+}
+
+.main-btn-white:hover {
+  background: var(--color-primario-oscuro);
+  color: #fff;
+  border: 2px solid #fff;
+  box-shadow: 0 8px 25px rgba(216, 150, 160, 0.5);
+  transform: scale(1.06);
+}
+
+/* ===== FORMULARIOS ===== */
+form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 9px;
+  box-shadow: 0 2px 8px rgba(216, 150, 160, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input,
+textarea {
+  padding: 0.8rem;
+  border: 1px solid var(--color-primario);
+  border-radius: 5px;
+  font-size: 1rem;
+  background: var(--color-fondo);
+}
+
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--color-primario);
+  background: #fceef1;
+}
+
+/* ===== FOOTER ===== */
 footer {
-  background-color: var(--color-primario);
+  text-align: center;
+  background: var(--color-primario-oscuro);
+  color: var(--color-blanco);
+  padding: 1rem;
+  border-radius: 0 0 var(--radius-main) var(--radius-main);
+  font-size: 1.08rem;
+}
+
+/* ===== WHATSAPP FLOTANTE ===== */
+.whatsapp-float {
+  position: fixed;
+  top: 22px;
+  right: 22px;
+  width: 38px;
+  height: 38px;
+  background: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  z-index: 1000;
+  box-shadow: 0 2px 7px rgba(37, 211, 102, 0.18);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.whatsapp-float img {
+  width: 22px;
+  height: 22px;
+}
+
+/* ===== REDES SOCIALES DERECHA ===== */
+.redes-sociales-derecha {
+  position: fixed;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 1000;
+}
+.redes-sociales-derecha a {
+  font-size: 36px;
+  padding: 18px;
+  border-radius: 50%;
   color: white;
   text-align: center;
-  padding: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.redes-sociales-derecha a:hover {
+  transform: scale(1.15);
+}
+.redes-sociales-derecha .facebook { background-color: #3b5998; }
+.redes-sociales-derecha .youtube { background-color: #ff0000; }
+.redes-sociales-derecha .linkedin { background-color: #0077b5; }
 
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .container-header { flex-direction: column; gap: 1.3rem; }
+}
+@media (max-width: 600px) {
+  nav { flex-direction: column; gap: 0.7rem; padding: 1rem 0 0.6rem; }
+  .main-btn-white { width: 90%; font-size: 1rem; }
+}

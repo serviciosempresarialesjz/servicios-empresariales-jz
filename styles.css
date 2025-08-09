@@ -263,6 +263,41 @@ footer {
 }
 
 /* =========================
+   Herramientas que utilizamos (íconos más pequeños y organizados)
+========================= */
+.herramientas-index ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;              /* Espacio entre íconos */
+  max-width: 600px;       /* Limita ancho para que no queden muy dispersos */
+  margin: 0 auto 2rem auto; /* Centrado horizontal y margen abajo */
+}
+
+.herramientas-index li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;            /* Tamaño fijo para cada ícono + texto */
+  font-size: 0.85rem;     /* Texto un poco más pequeño */
+  color: var(--color-primario-oscuro);
+}
+
+.icono-herramienta img {
+  max-width: 40px;        /* Íconos más pequeños */
+  height: auto;
+  display: block;
+  margin: 0 auto 6px auto;
+  transition: transform 0.3s ease;
+}
+
+.herramientas-index li:hover .icono-herramienta img {
+  transform: scale(1.1);
+}
+
+/* =========================
    Responsive - Móvil y tabletas
 ========================= */
 @media (max-width: 900px) {
@@ -329,63 +364,7 @@ footer {
     font-size: 22px;
     padding: 12px;
     border-radius: 50%;
-    .herramientas-index ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;          /* Espacio entre íconos */
-  max-width: 600px;   /* Limita ancho para que no queden muy dispersos */
-  margin: 0 auto 2rem auto; /* Centrado horizontal y margen abajo */
-}
-
-.herramientas-index li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80px;        /* Tamaño fijo para cada ícono + texto */
-  font-size: 0.85rem; /* Texto un poco más pequeño */
-  color: var(--color-primario-oscuro);
-}
-
-.icono-herramienta img {
-  max-width: 40px;    /* Íconos más pequeños */
-  height: auto;
-  display: block;
-  margin: 0 auto 6px auto;
-  /* =========================
-   Herramientas que utilizamos (íconos más pequeños y organizados)
-========================= */
-.herramientas-index ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  max-width: 600px;
-  margin: 0 auto 2rem auto;
-}
-
-.herramientas-index li {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 80px;
-  font-size: 0.85rem;
-  color: var(--color-primario-oscuro);
-}
-
-.icono-herramienta img {
-  max-width: 40px;
-  height: auto;
-  display: block;
-  margin: 0 auto 6px auto;
-}
-
-}
-
   }
 }
+
 

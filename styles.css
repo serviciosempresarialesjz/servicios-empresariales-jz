@@ -266,6 +266,62 @@ footer {
 
   .video-presentacion iframe {
     width: 100%;
+    /* Ajustes responsivos móviles */
+@media (max-width: 768px) {
+
+  /* Navegación vertical, links más grandes y centrados */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  nav a {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+  }
+
+  /* Lista de servicios en columna */
+  .servicio-list {
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 15px;
+    max-width: 100%;
+  }
+
+  /* Tarjetas servicio ocupan casi todo el ancho */
+  .servicio-card {
+    width: 100%;
+    max-width: 360px;
+    padding: 20px;
+  }
+
+  /* Imagen dentro de tarjeta más grande y centrada */
+  .servicio-card .imagen-cuadrada {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+
+  /* Botón más ancho y fácil de pulsar */
+  .btn-solicitar {
+    width: 100%;
+    padding: 1rem 0;
+    font-size: 1.1rem;
+  }
+
+  /* Video 100% ancho */
+  .video-presentacion iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Reducción de padding general para secciones */
+  section {
+    padding: 15px 10px;
+  }
+}
+
   }
 }
 

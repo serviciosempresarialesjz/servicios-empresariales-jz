@@ -349,5 +349,26 @@ footer {
     font-size: 22px;
     padding: 12px;
     border-radius: 50%;
+
+    /* Ajustes para Herramientas en móvil */
+@media (max-width: 600px) {
+  .herramientas-index ul {
+    gap: 16px;          /* Más espacio entre íconos */
+    max-width: 100%;    /* Que ocupe todo el ancho disponible */
+    padding: 0 10px;    /* Un poco de espacio lateral */
+    justify-content: flex-start; /* Alinea a la izquierda para mejor lectura */
+    flex-wrap: wrap;
+  }
+
+  .herramientas-index li {
+    width: 70px;        /* Íconos un poco más pequeños */
+    font-size: 0.8rem;  /* Texto legible */
+  }
+
+  .icono-herramienta img {
+    max-width: 35px;    /* Íconos un poco más pequeños en móvil */
+  }
+}
+
   }
 }

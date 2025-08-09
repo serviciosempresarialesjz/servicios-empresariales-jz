@@ -215,6 +215,93 @@ footer {
 
 .redes-sociales-derecha a:hover {
   background-color: var(--color-primario-oscuro);
+
+  .servicio-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin: 40px auto;
+  max-width: 1100px;
+  padding: 0 20px;
+}
+
+.servicio-card {
+  background-color: var(--color-blanco);
+  padding: 20px;
+  border-radius: var(--radius-main);
+  box-shadow: var(--shadow-main);
+  text-align: center;
+  width: 280px;
+  border: 1.5px solid #bbdefb;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servicio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Contenedor para la imagen dentro del servicio, con borde y sombra */
+.servicio-card .imagen-cuadrada {
+  width: 80px;
+  height: 80px;
+  border: 1.5px solid #bbdefb;
+  border-radius: 14px;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(33,150,243,0.1);
+  background-color: var(--color-blanco);
+}
+
+/* La imagen dentro debe ocupar máximo el contenedor sin deformarse */
+.servicio-card .imagen-cuadrada img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Título */
+.servicio-card h3 {
+  color: var(--color-primario-oscuro);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Botón */
+.btn-solicitar {
+  display: inline-block;
+  background: var(--color-primario);
+  color: var(--color-blanco);
+  padding: 0.7rem 1.8rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  margin-top: auto; /* que el botón se quede abajo */
+}
+
+.btn-solicitar:hover {
+  background: var(--color-primario-oscuro);
+  transform: translateY(-2px);
+}
+
+/* Responsive para móvil */
+@media (max-width: 900px) {
+  .servicio-list {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+}
+
 }
 
   }

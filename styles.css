@@ -367,6 +367,27 @@ footer {
 
   .icono-herramienta img {
     max-width: 35px;    /* Íconos un poco más pequeños en móvil */
+    /* Herramientas en columna vertical para móviles */
+@media (max-width: 600px) {
+  .herramientas-index ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .herramientas-index li {
+    width: auto;          /* Que tome el ancho necesario */
+    font-size: 1rem;      /* Texto más grande y legible */
+  }
+
+  .icono-herramienta img {
+    max-width: 60px;      /* Íconos más grandes para móvil */
+    margin-bottom: 10px;  /* Separación del texto */
+  }
+}
+
   }
 }
 

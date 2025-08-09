@@ -22,10 +22,87 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-primario-oscuro);
+  text-align: center;
 }
 
 /* ============================
-   🧭 Navegación y botones
+   Encabezado y navegación
+   ============================ */
+header {
+  text-align: center;
+  padding: 1em;
+}
+
+header .container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header .logo {
+  max-width: 150px;
+  margin-bottom: 1em;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: var(--color-primario-oscuro);
+}
+
+/* ============================
+   Video y multimedia
+   ============================ */
+.video-presentacion {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+}
+
+.video-embed-responsive iframe {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* ============================
+   Lista de herramientas
+   ============================ */
+.herramientas-index ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5em;
+  list-style: none;
+  padding: 0;
+}
+
+.herramientas-index li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icono-herramienta img {
+  max-width: 60px;
+}
+
+/* ============================
+   🧭 Botones
    ============================ */
 .btn, .volver-inicio {
   background-color: var(--color-primario);
@@ -57,36 +134,23 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid var(--color-gris);
   border-radius: 12px;
   padding: 2em;
-  margin: 2em 0;
+  margin: 2em auto;
+  max-width: 900px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-}
-
-/* ============================
-   📱 Responsive design
-   ============================ */
-@media (max-width: 768px) {
-  .card {
-    padding: 1.5em;
-  }
-
-  .btn {
-    width: 100%;
-    text-align: center;
-  }
 }
 
 /* ============================
    📞 Botón flotante WhatsApp
    ============================ */
-.whatsapp-btn {
+.whatsapp-btn, .whatsapp-float {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #E8AEB7;
+  background-color: var(--color-primario);
   color: white;
   border-radius: 50%;
-  width: 45px;
-  height: 45px;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,33 +160,48 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
 }
 
-.whatsapp-btn:hover {
-  background-color: #D18591;
+.whatsapp-btn:hover, .whatsapp-float:hover {
+  background-color: var(--color-primario-oscuro);
 }
 
 /* ============================
-   🔗 Redes sociales
+   🔗 Redes sociales laterales
    ============================ */
-.social-icons {
+.redes-sociales-derecha {
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
   display: flex;
-  gap: 12px;
-  margin-top: 1em;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
 }
 
-.social-icons a {
+.redes-sociales-derecha a {
+  color: white;
   background-color: var(--color-primario);
-  color: var(--color-blanco);
-  width: 36px;
-  height: 36px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 10px;
   border-radius: 50%;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
+  text-align: center;
   font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
-.social-icons a:hover {
+.redes-sociales-derecha a:hover {
   background-color: var(--color-primario-oscuro);
+}
+
+/* ============================
+   📱 Responsive
+   ============================ */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .herramientas-index ul {
+    flex-direction: column;
+    align-items: center;
+  }
 }

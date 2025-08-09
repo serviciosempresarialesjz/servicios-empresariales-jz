@@ -354,6 +354,36 @@ footer {
   height: auto;
   display: block;
   margin: 0 auto 6px auto;
+  /* =========================
+   Herramientas que utilizamos (íconos más pequeños y organizados)
+========================= */
+.herramientas-index ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+.herramientas-index li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  font-size: 0.85rem;
+  color: var(--color-primario-oscuro);
+}
+
+.icono-herramienta img {
+  max-width: 40px;
+  height: auto;
+  display: block;
+  margin: 0 auto 6px auto;
+}
+
 }
 
   }

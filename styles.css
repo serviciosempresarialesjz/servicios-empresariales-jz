@@ -411,9 +411,33 @@ footer {
   nav a:hover,
   nav a.active {
     background-color: var(--color-primario-oscuro);
+    /* ===== Navegación responsive para móviles ===== */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;   /* menú vertical */
+    align-items: center;      /* centrado horizontal */
+    gap: 15px;                /* espacio vertical entre botones */
+    padding: 10px 0;
+  }
+
+  nav a {
+    width: 80%;               /* botones anchos pero con margen lateral */
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 12px 0;
+    border-radius: 8px;
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    font-weight: 700;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: background-color 0.3s ease;
+  }
+
+  nav a:hover,
+  nav a.active {
+    background-color: var(--color-primario-oscuro);
   }
 }
 
-  }
-}
+
 

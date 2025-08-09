@@ -26,6 +26,9 @@ header h1 {
 
 header p {
   font-size: 1.1em;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.5;
 }
 
 /* =========================
@@ -60,10 +63,13 @@ nav a:hover {
 }
 
 .video-presentacion iframe {
-  max-width: 100%;
-  height: auto;
+  width: 90%;
+  max-width: 800px;
+  aspect-ratio: 16/9;
   display: block;
   margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 /* =========================
@@ -78,6 +84,7 @@ section img {
   display: block;
   margin: auto;
   max-width: 100%;
+  border-radius: 8px;
 }
 
 /* =========================
@@ -89,10 +96,10 @@ section img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 15px;
 }
 
 .herramientas-index li {
-  margin: 10px;
   text-align: center;
 }
 
@@ -123,6 +130,7 @@ section img {
   border-radius: 50%;
   text-align: center;
   font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
 }
 
 .redes-sociales-derecha a:hover {
@@ -148,3 +156,22 @@ footer {
   right: 20px;
 }
 
+/* =========================
+   Responsivo
+========================= */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .herramientas-index ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .video-presentacion iframe {
+    width: 100%;
+  }
+}

@@ -1,4 +1,4 @@
-/* 🎨 Colores principales */
+/* 🎨 Variables de colores y estilos */
 :root {
   --color-primario: #d8a7b1; /* Palo rosa */
   --color-primario-oscuro: #b17a82;
@@ -8,30 +8,38 @@
 }
 
 /* =========================
+   General y body
+========================= */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--color-blanco);
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================
    Encabezado
 ========================= */
 header {
   background-color: var(--color-primario);
   color: white;
-  padding: 20px;
+  padding: 20px 15px;
   text-align: center;
 }
 
 header .logo {
   max-width: 120px;
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 10px;
 }
 
 header h1 {
   margin: 10px 0 5px;
-}
-
-header p {
-  font-size: 1.1em;
-  max-width: 800px;
-  margin: 0 auto;
-  line-height: 1.5;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.2;
 }
 
 /* =========================
@@ -39,96 +47,169 @@ header p {
 ========================= */
 nav {
   margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
 nav a {
   color: white;
-  padding: 10px 15px;
+  padding: 10px 18px;
   text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
+  font-weight: 600;
+  border-radius: 6px;
+  background-color: var(--color-primario);
   transition: background-color 0.3s ease;
 }
 
-nav a.active,
-nav a:hover {
+nav a:hover,
+nav a.active {
   background-color: var(--color-primario-oscuro);
 }
 
 /* =========================
-   Video centrado
+   Main y secciones
 ========================= */
-.video-presentacion {
-  text-align: center;
-  margin: 30px 0;
+main {
+  padding: 20px 15px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.video-presentacion iframe {
-  width: 90%;
-  max-width: 800px;
-  aspect-ratio: 16 / 9;
-  display: block;
-  margin: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-/* =========================
-   Secciones
-========================= */
 section {
-  padding: 20px;
-  text-align: center; /* Centra texto e imágenes */
+  margin-bottom: 40px;
+  text-align: center;
 }
 
-section img {
-  display: block;
-  margin: auto;
-  max-width: 100%;
-  border-radius: 8px;
+section h2 {
+  color: var(--color-primario-oscuro);
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 /* =========================
-   Lista de herramientas
+   Lista de servicios
 ========================= */
-.herramientas-index ul {
-  list-style: none;
-  padding: 0;
+.servicio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 24px;
 }
 
-.herramientas-index li {
+.servicio-card {
+  background-color: var(--color-blanco);
+  padding: 20px;
+  border-radius: var(--radius-main);
+  box-shadow: var(--shadow-main);
   text-align: center;
-}
-
-.icono-herramienta img {
-  max-width: 60px;
-  display: block;
-  margin: auto;
-}
-
-/* =========================
-   Botones "Solicitar información"
-========================= */
-.btn-servicio, .btn-solicitar {
-  display: inline-block;
-  background-color: var(--color-primario);
-  color: var(--color-blanco);
-  padding: 0.6em 1.2em;
-  border-radius: 8px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-  text-align: center;
+  width: 280px;
+  border: 1.5px solid #bbdefb;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   cursor: pointer;
 }
 
-.btn-servicio:hover, .btn-solicitar:hover {
+.servicio-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Imagen cuadrada con borde y sombra */
+.servicio-card .imagen-cuadrada {
+  width: 80px;
+  height: 80px;
+  border: 1.5px solid #bbdefb;
+  border-radius: 14px;
+  padding: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(33, 150, 243, 0.1);
+  background-color: var(--color-blanco);
+}
+
+.servicio-card .imagen-cuadrada img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Título del servicio */
+.servicio-card h3 {
+  color: var(--color-primario-oscuro);
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+/* Descripción */
+.servicio-card p {
+  flex-grow: 1;
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Botón solicitar info */
+.btn-solicitar {
+  background-color: var(--color-primario);
+  color: var(--color-blanco);
+  padding: 0.7rem 1.8rem;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  cursor: pointer;
+  margin-top: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.btn-solicitar:hover {
   background-color: var(--color-primario-oscuro);
   transform: translateY(-2px);
+}
+
+/* =========================
+   Proyectos (similar estilo)
+========================= */
+.proyectos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.proyecto-card {
+  width: 280px;
+  border-radius: var(--radius-main);
+  box-shadow: var(--shadow-main);
+  border: 1px solid #bbdefb;
+  padding: 15px;
+  text-align: center;
+  background-color: var(--color-blanco);
+  transition: box-shadow 0.3s ease;
+}
+
+.proyecto-card:hover {
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.proyecto-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.proyecto-card h4 {
+  color: var(--color-primario-oscuro);
+  font-weight: 600;
 }
 
 /* =========================
@@ -161,16 +242,6 @@ section img {
 }
 
 /* =========================
-   Footer
-========================= */
-footer {
-  background-color: var(--color-primario);
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
-
-/* =========================
    Botón flotante WhatsApp
 ========================= */
 .whatsapp-float {
@@ -181,161 +252,83 @@ footer {
 }
 
 /* =========================
-   Lista de servicios con imágenes cuadradas bordeadas
+   Footer
 ========================= */
-.servicio-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 24px;
-  margin: 40px auto;
-  max-width: 1100px;
-  padding: 0 20px;
-}
-
-.servicio-card {
-  background-color: var(--color-blanco);
-  padding: 20px;
-  border-radius: var(--radius-main);
-  box-shadow: var(--shadow-main);
+footer {
+  background-color: var(--color-primario);
+  color: white;
   text-align: center;
-  width: 280px;
-  border: 1.5px solid #bbdefb;
-  transition: transform 0.3s, box-shadow 0.3s;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-}
-
-.servicio-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-}
-
-/* Contenedor para la imagen dentro del servicio, con borde y sombra */
-.servicio-card .imagen-cuadrada {
-  width: 80px;
-  height: 80px;
-  border: 1.5px solid #bbdefb;
-  border-radius: 14px;
-  padding: 10px;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0 2px 6px rgba(33, 150, 243, 0.1);
-  background-color: var(--color-blanco);
-}
-
-/* La imagen dentro debe ocupar máximo el contenedor sin deformarse */
-.servicio-card .imagen-cuadrada img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-/* Título del servicio */
-.servicio-card h3 {
-  color: var(--color-primario-oscuro);
-  font-weight: 600;
-  margin-bottom: 1rem;
+  padding: 15px;
+  font-size: 0.9rem;
 }
 
 /* =========================
-   Responsivo general
+   Responsive - Móvil y tabletas
 ========================= */
 @media (max-width: 900px) {
-  .servicio-list {
-    flex-direction: column;
-    gap: 1.5rem;
-    align-items: center;
-  }
-}
-
-/* =========================
-   Responsivo móvil avanzado
-========================= */
-@media (max-width: 768px) {
-
-  /* Navegación vertical, links más grandes y centrados */
-  nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 12px;
-  }
-  nav a {
-    padding: 12px 20px;
-    font-size: 1.1rem;
-  }
-
-  /* Lista de servicios en columna */
-  .servicio-list {
+  .servicio-list,
+  .proyectos-list {
     flex-direction: column;
     gap: 20px;
-    padding: 0 15px;
-    max-width: 100%;
+    align-items: center;
   }
 
-  /* Tarjetas servicio ocupan casi todo el ancho */
-  .servicio-card {
+  .servicio-card,
+  .proyecto-card {
     width: 100%;
     max-width: 360px;
-    padding: 20px;
   }
 
-  /* Imagen dentro de tarjeta más grande y centrada */
   .servicio-card .imagen-cuadrada {
     width: 100px;
     height: 100px;
     margin-bottom: 20px;
   }
 
-  /* Botón más ancho y fácil de pulsar */
-  .btn-solicitar,
-  .btn-servicio {
+  .btn-solicitar {
     width: 100%;
     padding: 1rem 0;
     font-size: 1.1rem;
   }
+}
 
-  /* Video 100% ancho */
-  .video-presentacion iframe {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+@media (max-width: 480px) {
+  header h1 {
+    font-size: 1.4rem;
   }
 
-  /* Reducción de padding general para secciones */
-  section {
-    padding: 15px 10px;
+  nav a {
+    padding: 10px 12px;
+    font-size: 1rem;
+  }
 
-    .redes-sociales-derecha {
-  position: fixed;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  z-index: 1000;
-}
-
-.redes-sociales-derecha a {
-  color: white;
-  background-color: var(--color-primario);
-  padding: 10px;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 18px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s ease;
-}
-
-.redes-sociales-derecha a:hover {
-  background-color: var(--color-primario-oscuro);
-}
-
+  section h2 {
+    font-size: 1.6rem;
   }
 }
+
+/* Redes sociales adaptadas para móvil */
+@media (max-width: 768px) {
+  .redes-sociales-derecha {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    right: 0;
+    left: 0;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px 0;
+    background-color: var(--color-primario);
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    border-radius: 0;
+  }
+
+  .redes-sociales-derecha a {
+    margin: 0 8px;
+    font-size: 22px;
+    padding: 12px;
+    border-radius: 50%;
+  }
+}
+

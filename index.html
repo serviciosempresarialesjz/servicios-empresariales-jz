@@ -1,153 +1,260 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios Empresariales JZ</title>
-  <link rel="stylesheet" href="styles.css">
 
-  <!-- Font Awesome para íconos de redes sociales -->
+  <!-- ICONOS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #fff;
+    color: #000;
+  }
+
+  header {
+    background: #000;
+    color: #fff;
+    padding: 20px;
+  }
+
+  .container-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  nav {
+    margin-top: 10px;
+  }
+
+  nav a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .redes-sociales-derecha {
+    position: fixed;
+    right: 10px;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .redes-sociales-derecha a {
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+  }
+
+  section {
+    padding: 40px;
+    text-align: center;
+  }
+
+  .video-presentacion iframe {
+    width: 80%;
+    height: 400px;
+  }
+
+  /* HERRAMIENTAS */
+  .herramientas-index ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .herramientas-index li {
+    text-align: center;
+  }
+
+  .icono-herramienta img {
+    width: 40px;
+  }
+
+  /* CURSOS */
+  .contenedor-cursos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .curso {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+
+  .curso:hover {
+    transform: scale(1.05);
+  }
+
+  .curso button {
+    padding: 10px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  </style>
 </head>
+
 <body>
 
-  <!-- Redes Sociales (posición fija a la derecha) -->
-  <div class="redes-sociales-derecha">
-    <a href="https://www.facebook.com/share/16oYGDxZXW/" target="_blank" aria-label="Facebook" class="facebook">
-      <i class="fab fa-facebook-f"></i>
-    </a>
-    <a href="https://www.youtube.com/@ServiciosEmpresarialesJZ" target="_blank" aria-label="YouTube" class="youtube">
-      <i class="fab fa-youtube"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/servicios-empresariales-jz" target="_blank" aria-label="LinkedIn" class="linkedin">
-      <i class="fab fa-linkedin-in"></i>
-    </a>
+<!-- REDES -->
+<div class="redes-sociales-derecha">
+  <a href="https://www.facebook.com/share/16oYGDxZXW/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://www.youtube.com/@ServiciosEmpresarialesJZ" target="_blank"><i class="fab fa-youtube"></i></a>
+  <a href="https://www.linkedin.com/in/servicios-empresariales-jz" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="container-header">
+    <img src="Black_and_White_Round_Fashion_Monogram_Logo-removebg-preview.png" class="logo">
+
+    <div>
+      <h1>Servicios Empresariales JZ</h1>
+      <p>Transformamos procesos manuales en sistemas digitales eficientes.</p>
+    </div>
   </div>
 
-  <!-- ===========================
-       ENCABEZADO PRINCIPAL
-  ============================ -->
-  <header>
-    <div class="container-header">
-      <img src="Black_and_White_Round_Fashion_Monogram_Logo-removebg-preview.png" alt="Logo JZ" class="logo">
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Formulación</a>
+    <a href="#">Contacto</a>
+  </nav>
+</header>
 
-      <div class="header-titulos">
-        <h1>Servicios Empresariales JZ</h1>
-        <p>
-          Transformamos procesos manuales en sistemas digitales eficientes, inteligentes y completamente adaptados a tu modelo de negocio.
-        </p>
-      </div>
-    </div>
+<!-- VIDEO -->
+<section class="video-presentacion">
+  <iframe src="https://www.youtube.com/embed/_JXyQgjT1Y0" allowfullscreen></iframe>
+</section>
 
-    <!-- Barra de navegación -->
-    <nav>
-      <a href="index.html" class="active">Inicio</a>
-      <a href="servicios.html">Servicios</a>
-      <a href="formulaciondeproyectos.html">Formulación</a>
-      <a href="contacto.html" class="main-btn">Cotizar</a>
-    </nav>
-  </header>
+<main>
 
-  <!-- ===========================
-       VIDEO DE PRESENTACIÓN
-  ============================ -->
-  <section class="video-presentacion">
-    <div class="video-embed-responsive">
-      <iframe width="560" height="315" 
-              src="https://www.youtube.com/embed/_JXyQgjT1Y0" 
-              title="Video presentación Servicios Empresariales JZ" 
-              frameborder="0" allowfullscreen>
-      </iframe>
-    </div>
-  </section>
+<!-- BIENVENIDA -->
+<section class="bienvenida">
+  <p>Ayudamos a empresas, emprendimientos y fundaciones a optimizar su gestión con herramientas tecnológicas.</p>
+</section>
 
-  <!-- ===========================
-       CONTENIDO PRINCIPAL
-  ============================ -->
-  <main>
-    
-    <!-- Bienvenida -->
-    <section class="bienvenida">
-      <p>
-        Ayudamos a empresas, emprendimientos y fundaciones a optimizar su gestión con herramientas tecnológicas a medida.
-      </p>
-      <p>
-        Nuestro enfoque es práctico, personalizado y directo. Te acompañamos en todo el proceso y ofrecemos cotizaciones rápidas por WhatsApp.
-      </p>
-    </section>
-    <!-- Herramientas que utilizamos -->
-    <section class="herramientas-index">
-      <h3>Herramientas que utilizamos</h3>
-      <ul>
-        <li>
-          <div class="icono-herramienta"><img src="icon-appsheet.png" alt="AppSheet"></div><span>AppSheet</span>
-        </li>
-        <li>
-          <div class="icono-herramienta"><img src="icon-excel.png" alt="Excel"></div><span>Excel Avanzado</span>
-        </li>
-        <li>
-          <div class="icono-herramienta"><img src="icon-appsript y googlesheet.png" alt="Apps Script"></div><span>Apps Script</span>
-        </li>
-        <li>
-          <div class="icono-herramienta"><img src="icon-googlesheet.png" alt="Google Sheets"></div><span>Google Sheets</span>
-        </li>
-        <li>
-          <div class="icono-herramienta"><img src="icon-canva.png" alt="Canva"></div><span>Canva</span>
-        </li>
-        <li>
-          <div class="icono-herramienta"><img src="icono-phyton.png" alt="Python"></div><span>Python</span>
-        </li>
-      </ul>
-      
-      </div>
-      <!-- Más tarjetas -->
-    </div>
-  </section>
-
-  <!-- Más contenido -->
-
-</body>
-
-    </section>
-
-    <!-- Formulación de Proyectos -->
-<section class="formulacion-proyectos">
-  <h2>Formulación de Proyectos Sociales con Enfoque en los ODS</h2>
-  <p>
-    ¿Tienes una idea para generar impacto en tu comunidad, postularte a convocatorias o acceder a cooperación internacional?<br>
-    <strong>Te guiamos desde cero</strong> para que conviertas tu idea en un proyecto estructurado, viable y financiable.
-  </p>
-  <ul class="lista-formulacion">
-    <li> Identificamos el problema y sus causas reales</li>
-    <li> Definimos objetivos claros, resultados medibles y un cronograma realista</li>
-    <li> Diseñamos un presupuesto completo y justificado</li>
+<!-- HERRAMIENTAS -->
+<section class="herramientas-index">
+  <h3>Herramientas que utilizamos</h3>
+  <ul>
+    <li><div class="icono-herramienta"><img src="icon-appsheet.png"></div>AppSheet</li>
+    <li><div class="icono-herramienta"><img src="icon-excel.png"></div>Excel</li>
+    <li><div class="icono-herramienta"><img src="icon-appsript y googlesheet.png"></div>Apps Script</li>
+    <li><div class="icono-herramienta"><img src="icon-googlesheet.png"></div>Google Sheets</li>
+    <li><div class="icono-herramienta"><img src="icon-canva.png"></div>Canva</li>
+    <li><div class="icono-herramienta"><img src="icono-phyton.png"></div>Python</li>
   </ul>
 </section>
 
-    </section>
+<!-- CURSOS -->
+<section>
+  <h2>Nuestros Cursos</h2>
+  <div id="contenedor-cursos" class="contenedor-cursos"></div>
+</section>
 
-    <!-- Mensaje motivador -->
-    <section class="mensaje-destacado">
-      <p>💡 Haz crecer tu empresa con soluciones reales y efectivas. <br>
-        ¡Conviértete en parte del cambio digital con Servicios Empresariales JZ!
-      </p>
-    </section>
-  </main>
+<!-- FORMULACIÓN -->
+<section class="formulacion-proyectos">
+  <h2>Formulación de Proyectos Sociales con Enfoque en los ODS</h2>
+  <p>Te guiamos desde cero para estructurar proyectos financiables.</p>
+</section>
 
-  <!-- ===========================
-       PIE DE PÁGINA
-  ============================ -->
-  <footer>
-    &copy; 2025 Servicios Empresariales JZ - Todos los derechos reservados
-  </footer>
+<!-- MENSAJE -->
+<section class="mensaje-destacado">
+  <p>💡 Haz crecer tu empresa con soluciones digitales.</p>
+</section>
 
-  <!-- ===========================
-       BOTÓN FLOTANTE WHATSAPP
-  ============================ -->
-  <a href="https://wa.me/573136603230" class="whatsapp-float" target="_blank" title="Escríbenos por WhatsApp">
-    <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp" />
-  </a>
+</main>
+
+<!-- FOOTER -->
+<footer>
+  © 2026 Servicios Empresariales JZ
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/573136603230" class="whatsapp-float" target="_blank">
+  <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png">
+</a>
+
+<!-- SCRIPT CURSOS -->
+<script>
+const cursos = [
+  {
+    nombre: "Distribución de Planta",
+    descripcion: "Optimiza procesos productivos",
+    pagina: "curso1.html"
+  },
+  {
+    nombre: "AppSheet desde Cero",
+    descripcion: "Crea apps sin código",
+    pagina: "curso2.html"
+  },
+  {
+    nombre: "Inventarios con Google Sheets",
+    descripcion: "Control total de stock",
+    pagina: "curso3.html"
+  }
+];
+
+const contenedor = document.getElementById("contenedor-cursos");
+
+cursos.forEach(curso => {
+  const div = document.createElement("div");
+  div.classList.add("curso");
+
+  div.innerHTML = `
+    <h3>${curso.nombre}</h3>
+    <p>${curso.descripcion}</p>
+    <button onclick="irCurso('${curso.pagina}')">Ver Curso</button>
+  `;
+
+  contenedor.appendChild(div);
+});
+
+function irCurso(pagina){
+  window.location.href = pagina;
+}
+</script>
+
 </body>
 </html>

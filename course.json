@@ -1,0 +1,2009 @@
+{
+  "data": {
+    "name": "Ventas con Inteligencia Artificial: Crea tu Bot para WhatsApp",
+    "objective": "Al finalizar este curso, la persona será capaz de aplicar técnicas de programación y diseño para crear un bot de ventas en WhatsApp, logrando aumentar la tasa de conversión de clientes en un entorno comercial específico.",
+    "summary": null,
+    "learningObjectives": null,
+    "tags": [
+      "bot",
+      "WhatsApp"
+    ],
+    "units": [],
+    "cover": {
+      "status": null,
+      "image_url": null,
+      "url": "public/assets/photo-1644035772775-8e26685ad2f0.jpg",
+      "script": null
+    },
+    "outline": []
+  },
+  "metadata": {
+    "query": "ventas con intleigencia artificial crear tu boot para wasathp",
+    "extraInfo": null,
+    "adjustments": {
+      "lang": "Español",
+      "size": null,
+      "cardCount": 4,
+      "textSize": "medium",
+      "imageSource": "web",
+      "imageStylePrompt": "",
+      "source": "document"
+    },
+    "documents": []
+  },
+  "config": {
+    "lti": {
+      "sharedSecret": "675ac6c28ca0493680653978a5088a4d",
+      "launchUrl": null
+    }
+  },
+  "theme": null,
+  "id": "69e945505735ac155da424ca",
+  "company": null,
+  "companyId": "69e945115735ac155da424c6",
+  "author": null,
+  "authorId": "69e9451177d2ac6d2cedbc15",
+  "workspace": null,
+  "workspaceId": "69e94514ee225f952f5747d4",
+  "sourceCourseId": null,
+  "documentIds": [],
+  "themeId": "698f7c5b61d8c0dfcc4ea893",
+  "transactionId": null,
+  "status": "PUBLISHED",
+  "createdAt": "2026-04-22T22:01:52.941Z",
+  "updatedAt": "2026-04-22T22:13:33.730Z",
+  "deletedAt": null,
+  "syncAt": null,
+  "documents": [],
+  "cardTheme": {
+    "challenges": {
+      "backgroundColor": null,
+      "textColor": "#111827"
+    },
+    "options": {
+      "header": {
+        "color": "#111827",
+        "type": "sticky",
+        "position": "left",
+        "backgroundURL": null
+      },
+      "logo": null,
+      "layout": "video"
+    },
+    "id": "698f7c5b61d8c0dfcc4ea893",
+    "authorId": null,
+    "workspaceId": null,
+    "name": "video_pro",
+    "title": "Video Pro",
+    "dark": false,
+    "heading": {
+      "fontFamily": "Inter",
+      "fontWeight": 500,
+      "fontSize": "2.25rem",
+      "textAlign": "left",
+      "textDecoration": "none",
+      "fontStyle": "normal",
+      "color": "#1F2937",
+      "degrade": "none",
+      "lineHeight": 1.25,
+      "letterSpacing": 0,
+      "capitalization": "none"
+    },
+    "body": {
+      "fontFamily": "Inter",
+      "fontWeight": 400,
+      "fontSize": "1.25rem",
+      "textAlign": "left",
+      "textDecoration": "none",
+      "fontStyle": "normal",
+      "color": "#4B5563",
+      "lineHeight": 1.6,
+      "letterSpacing": 0
+    },
+    "primaryButton": {
+      "fontFamily": "Gelasio",
+      "fontWeight": 700,
+      "backgroundColor": "#4F46E5",
+      "degrade": "none",
+      "color": "#FFFFFF",
+      "lineHeight": 1.25
+    },
+    "secondaryButton": {
+      "fontFamily": "Gelasio",
+      "fontWeight": 700,
+      "backgroundColor": "#FFF",
+      "degrade": "none",
+      "color": "#7f674dff",
+      "lineHeight": 1.25,
+      "border": "2px solid #B2A599"
+    },
+    "link": {
+      "fontFamily": "Gelasio",
+      "fontWeight": 600,
+      "color": "#2563EB",
+      "hover": "#484237",
+      "underline": true
+    },
+    "logo": "",
+    "images": {
+      "prompt": "Elegante con un look clásico y profesional. Sutil y minimalista utilizando una paleta cálida de colores crema, beige y beige claro."
+    },
+    "card": {
+      "color": "#F9FAFB",
+      "type": "default",
+      "backgroundType": "solid",
+      "svgOptions": {
+        "template": "sharp_blocks",
+        "primaryColor": "#D3C5B6",
+        "secondaryColor": "#6a635b",
+        "tertiaryColor": "#ede8e2",
+        "opacity": 0.5,
+        "flipVertical": false,
+        "flipHorizontal": true
+      }
+    },
+    "colors": {
+      "primary": "#4F46E5",
+      "secondary": [
+        "#111827",
+        "#E0E7FF"
+      ]
+    },
+    "defaultImage": "public/assets/photo-1614683574679-beee9c2ab699.jpg",
+    "backgroundColor": "#DDCFBB",
+    "isDefault": false,
+    "brandUrl": null,
+    "deletedAt": null,
+    "createdAt": "2026-02-13T12:51:59.195Z",
+    "updatedAt": "2026-02-13T13:13:02.160Z"
+  },
+  "userSettings": [
+    {
+      "id": "69e94563ee225f952f5747df",
+      "userId": "69e9451177d2ac6d2cedbc15",
+      "courseId": "69e945505735ac155da424ca",
+      "isFavourite": false,
+      "lastSeenAt": "2026-04-22T22:13:34.805Z",
+      "createdAt": "2026-04-22T22:02:11.099Z",
+      "updatedAt": "2026-04-22T22:13:34.805Z"
+    },
+    {
+      "id": "69e945ebee225f952f5747e9",
+      "userId": "69e9451177d2ac6d2cedbc15",
+      "courseId": "69e945505735ac155da424ca",
+      "isFavourite": false,
+      "lastSeenAt": "2026-04-22T22:04:22.219Z",
+      "createdAt": "2026-04-22T22:04:27.073Z",
+      "updatedAt": "2026-04-22T22:04:27.073Z"
+    }
+  ],
+  "currentCompany": {
+    "onboardingSteps": {
+      "workspace": false,
+      "course": true,
+      "theme": false
+    },
+    "id": "69e945115735ac155da424c6",
+    "name": "Compañia de johana zuletamarin",
+    "code": null,
+    "logo": null,
+    "brandingColor": null,
+    "createdAt": "2026-04-22T22:00:49.662Z",
+    "updatedAt": "2026-04-22T22:02:01.473Z",
+    "deletedAt": null,
+    "owner": "69e9451177d2ac6d2cedbc15",
+    "subscriptions": [
+      {
+        "remote": null,
+        "id": "69e945115735ac155da424c7",
+        "companyId": "69e945115735ac155da424c6",
+        "user": "69e9451177d2ac6d2cedbc15",
+        "planId": "69e238fc485b7f12d79c516e",
+        "createdAt": "2026-04-22T22:00:49.697Z",
+        "updatedAt": "2026-04-22T22:00:49.697Z",
+        "renewalAt": "2026-04-29T22:00:49.694Z",
+        "trialStartedAt": "2026-04-22T22:00:49.694Z",
+        "trialEndsAt": "2026-04-29T22:00:49.694Z",
+        "currentPeriodEndsAt": null,
+        "accessPolicyState": "active",
+        "downgradedReason": null,
+        "remoteJson": null,
+        "currentPlan": {
+          "limits": {
+            "credits": 500,
+            "accounts": null,
+            "gallery": true,
+            "storage": null,
+            "workspaces": 3,
+            "rag_courses": 5,
+            "lessons_per_course": 10,
+            "ai_courses": null,
+            "workspace_seats": null,
+            "themes": 5
+          },
+          "customization": {
+            "share": true,
+            "embed": true,
+            "integrations": true,
+            "email": true,
+            "download": true,
+            "branding": true,
+            "collaborate": true,
+            "editor": true,
+            "watermark": true,
+            "themes": true,
+            "user_settings": false,
+            "share_workspace": true,
+            "share_gallery": true,
+            "access_api": false,
+            "bulk_operations": false,
+            "reviewer_mode": false,
+            "copy_course": null
+          },
+          "ai": {
+            "tts": true,
+            "images": true,
+            "rag": true,
+            "card": true,
+            "video": true,
+            "autoscript": true,
+            "themes": true
+          },
+          "support": {
+            "live": true,
+            "cs": true,
+            "sla": "standard",
+            "onboarding": true
+          },
+          "remote": null,
+          "id": "69e238fc485b7f12d79c516e",
+          "name": "Trial",
+          "code": "trial",
+          "externalCode": null,
+          "price": 0,
+          "enabled": true,
+          "createdAt": "2026-04-09T20:19:11.204Z",
+          "updatedAt": "2026-04-09T20:19:11.204Z",
+          "data": null,
+          "remoteJson": null
+        }
+      }
+    ]
+  },
+  "lessons": [
+    {
+      "data": null,
+      "contents": [
+        {
+          "ID": null,
+          "type": null,
+          "name": "¿Qué es un bot de WhatsApp para ventas con IA?",
+          "text": "Un bot de WhatsApp para ventas con inteligencia artificial es un programa automatizado que interactúa con tus clientes a través de WhatsApp, respondiendo preguntas, ofreciendo productos y facilitando compras sin necesidad de intervención humana constante. Por ejemplo, imagina un asistente virtual que atiende consultas sobre horarios, precios o disponibilidad de productos a cualquier hora, mejorando la experiencia del cliente y aumentando tus ventas.",
+          "content_type": null,
+          "purpose": "definition",
+          "columns": null,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": null,
+          "name": "Elementos clave de un bot de ventas en WhatsApp",
+          "text": "Los bots de ventas en WhatsApp cuentan con: 1) Procesamiento de lenguaje natural (PLN), que permite entender y responder mensajes de forma humana; 2) Integración con catálogos de productos para mostrar opciones personalizadas; 3) Automatización de respuestas frecuentes para agilizar la atención; 4) Seguimiento de pedidos para mantener al cliente informado.",
+          "content_type": null,
+          "purpose": "short-list",
+          "columns": 3,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": "select",
+          "name": null,
+          "text": null,
+          "content_type": "challenge",
+          "purpose": "challenge",
+          "columns": null,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": null,
+          "name": "Beneficios de usar bots con IA en ventas por WhatsApp",
+          "text": "Entre los beneficios destacan: aumento de la disponibilidad 24/7, reducción de tiempos de respuesta, personalización de la comunicación, incremento en la tasa de conversión, recopilación de datos valiosos para marketing, disminución de costos operativos, mejora en la satisfacción del cliente y la capacidad de manejar múltiples conversaciones simultáneamente sin perder calidad.",
+          "content_type": null,
+          "purpose": "large-list",
+          "columns": null,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": null,
+          "name": "Bots de WhatsApp con IA vs Atención humana tradicional",
+          "text": "Los bots con IA ofrecen atención inmediata y constante, mientras que la atención humana puede ser más empática pero limitada en horarios. Los bots manejan múltiples clientes a la vez sin errores por cansancio, pero pueden tener dificultades con preguntas complejas. La atención humana es flexible y creativa, pero más costosa y lenta. Ambos pueden complementarse para brindar un servicio óptimo.",
+          "content_type": null,
+          "purpose": "comparison",
+          "columns": 2,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": "sentence",
+          "name": null,
+          "text": null,
+          "content_type": "challenge",
+          "purpose": "challenge",
+          "columns": null,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": null,
+          "name": "Pasos para crear tu bot de ventas en WhatsApp con IA",
+          "text": "Primero, define los objetivos y el público objetivo de tu bot. Segundo, selecciona una plataforma o herramienta que permita crear bots con IA para WhatsApp. Tercero, diseña los flujos de conversación y las respuestas automáticas basadas en preguntas frecuentes. Cuarto, integra el bot con tu catálogo de productos y sistemas de gestión. Quinto, prueba el bot con usuarios reales y ajusta según feedback. Finalmente, lanza el bot y monitorea su desempeño para mejoras continuas.",
+          "content_type": null,
+          "purpose": "steps",
+          "columns": null,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": null,
+          "name": "Caso práctico: Cómo Ana aumentó sus ventas con un bot en WhatsApp",
+          "text": "Ana, dueña de una tienda de ropa, implementó un bot de WhatsApp con IA para atender consultas y tomar pedidos fuera del horario comercial. Su bot respondía dudas sobre tallas, colores y promociones, y guiaba a los clientes para completar la compra. Gracias a esto, Ana vio un aumento del 30% en ventas mensuales y pudo dedicar más tiempo a diseñar nuevos productos, mientras el bot manejaba la atención diaria.",
+          "content_type": null,
+          "purpose": "story",
+          "columns": null,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": "true_false",
+          "name": null,
+          "text": null,
+          "content_type": "challenge",
+          "purpose": "challenge",
+          "columns": null,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": null,
+          "name": "Checklist para preparar tu bot de ventas en WhatsApp",
+          "text": "Antes de lanzar tu bot, verifica: 1) ¿Has definido claramente los objetivos del bot? 2) ¿El bot entiende y responde correctamente preguntas frecuentes? 3) ¿Está integrado con tu catálogo y sistema de ventas? 4) ¿Has probado el bot con usuarios reales? 5) ¿Tienes un plan para monitorear y mejorar el bot? 6) ¿El bot cumple con las políticas de WhatsApp? 7) ¿Has preparado mensajes de bienvenida y cierre amigables? 8) ¿El bot puede escalar conversaciones complejas a un agente humano?",
+          "content_type": null,
+          "purpose": "checklist",
+          "columns": 2,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": null,
+          "name": "Procesos simultáneos en un bot de ventas con IA",
+          "text": "En paralelo, el bot realiza: 1) Análisis de mensajes para entender la intención del cliente usando IA; 2) Respuesta automática con información relevante o preguntas para clarificar; 3) Registro y seguimiento de interacciones para actualizar el estado del pedido o generar reportes. Estos procesos trabajan juntos para ofrecer una experiencia fluida y eficiente al cliente, sin que notes la complejidad detrás.",
+          "content_type": null,
+          "purpose": "parallel-processes",
+          "columns": 3,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": "couples",
+          "name": null,
+          "text": null,
+          "content_type": "challenge",
+          "purpose": "challenge",
+          "columns": null,
+          "lessonId": null
+        },
+        {
+          "ID": null,
+          "type": null,
+          "name": null,
+          "text": null,
+          "content_type": "resume",
+          "purpose": "definition",
+          "columns": null,
+          "lessonId": null
+        }
+      ],
+      "prompts": null,
+      "settings": null,
+      "id": "69e945515735ac155da424cc",
+      "name": "Introducción a bots de WhatsApp para ventas con IA",
+      "topicId": null,
+      "type": "contents",
+      "markdown": "",
+      "schema": {
+        "root": {
+          "type": "root",
+          "version": 1,
+          "indent": 0,
+          "direction": "ltr",
+          "format": "",
+          "children": [
+            {
+              "type": "slide",
+              "layout": "accent_right",
+              "tags": [
+                "smartphone",
+                "chatbot"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-image",
+                      "src": "public/assets/photo-1751448582395-27fc57293f1a.jpg",
+                      "altText": "smartphone, chatbot",
+                      "position": "right",
+                      "fit": "cover",
+                      "version": 1
+                    },
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Introducción a bots de WhatsApp para ventas con IA"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "¡Hola! En esta lección descubrirás cómo un bot de WhatsApp con inteligencia artificial puede transformar tus ventas. Este asistente virtual responde preguntas, muestra productos y facilita compras automáticamente, disponible 24/7 para tus clientes. Aprenderás sus beneficios, cómo funcionan y los pasos para crear uno que aumente tus ventas y mejore la experiencia de tus clientes."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/1c2273d6-1109-4cf4-b262-f382255c072c.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>Introducción a bots de WhatsApp para ventas con IA.</emphasis><break time='1s'/> ¡Hola! En esta lección descubrirás cómo un bot de WhatsApp con inteligencia artificial puede transformar tus ventas. Este asistente virtual responde preguntas, muestra productos y facilita compras automáticamente, disponible 24/7 para tus clientes. Aprenderás sus beneficios, cómo funcionan y los pasos para crear uno que aumente tus ventas y mejore la experiencia de tus clientes.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 1
+            },
+            {
+              "type": "slide",
+              "layout": "accent_left",
+              "tags": [
+                "robot",
+                "smartphone"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-image",
+                      "src": "public/assets/photo-1775002003561-7ed71c820881.jpg",
+                      "altText": "robot, smartphone",
+                      "position": "left",
+                      "fit": "cover",
+                      "version": 1
+                    },
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "¿Qué es un bot de WhatsApp para ventas con IA?"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Un bot de WhatsApp para ventas con inteligencia artificial es un asistente virtual que automatiza la comunicación con tus clientes. Por ejemplo, puede responder preguntas sobre productos, guiar en el proceso de compra y enviar confirmaciones, todo sin que tengas que intervenir directamente. Esto permite que tu negocio esté disponible 24/7, mejorando la experiencia del cliente y aumentando tus ventas."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/901563df-db9e-413c-b5eb-0f9873b9ad9c.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>¿Qué es un bot de WhatsApp para ventas con IA?</emphasis><break time='1s'/> Un bot de WhatsApp para ventas con inteligencia artificial es un asistente virtual que automatiza la comunicación con tus clientes. Por ejemplo, puede responder preguntas sobre productos, guiar en el proceso de compra y enviar confirmaciones, todo sin que tengas que intervenir directamente. Esto permite que tu negocio esté disponible 24/7, mejorando la experiencia del cliente y aumentando tus ventas.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 2
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "chatbot",
+                "catalog"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Elementos clave de un bot de ventas en WhatsApp"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "grid",
+                          "columns": 3,
+                          "children": [
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Icono de procesamiento de lenguaje natural",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "14rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "chatbot",
+                                    "computer"
+                                  ],
+                                  "src": "public/assets/photo-1775441031103-1d559a6f91cd.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Procesamiento de Lenguaje Natural (PLN)"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "El PLN permite que el bot entienda y responda mensajes como si fuera una persona. Por ejemplo, si escribes \"¿Tienen tallas disponibles?\", el bot comprende la pregunta y responde adecuadamente."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Catálogo de productos en WhatsApp",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "14rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "catalog",
+                                    "phone"
+                                  ],
+                                  "src": "public/assets/photo-1762329397003-f35d51b38d81.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Integración con Catálogos de Productos"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "El bot muestra productos personalizados según lo que el cliente busca, facilitando la elección. Por ejemplo, puede enviar imágenes y detalles de ropa disponibles en tu tienda."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Automatización y seguimiento de pedidos",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "14rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "package",
+                                    "delivery"
+                                  ],
+                                  "src": "public/assets/photo-1566576721346-d4a3b4eaeb55.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Automatización y Seguimiento"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "El bot responde automáticamente preguntas frecuentes para agilizar la atención y mantiene informado al cliente sobre el estado de su pedido, mejorando la experiencia y confianza."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/274c2117-d072-4064-a924-1c9371b0ed1f.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>Elementos clave de un bot de ventas en WhatsApp.</emphasis><break time='1s'/> Procesamiento de Lenguaje Natural (PLN). <break time='1s'/> El PLN permite que el bot entienda y responda mensajes como si fuera una persona. Por ejemplo, si escribes \"¿Tienen tallas disponibles?\", el bot comprende la pregunta y responde adecuadamente. Integración con Catálogos de Productos. <break time='1s'/> El bot muestra productos personalizados según lo que el cliente busca, facilitando la elección. Por ejemplo, puede enviar imágenes y detalles de ropa disponibles en tu tienda. Automatización y Seguimiento. <break time='1s'/> El bot responde automáticamente preguntas frecuentes para agilizar la atención y mantiene informado al cliente sobre el estado de su pedido, mejorando la experiencia y confianza.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 3
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "whatsapp",
+                "bot"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "challenge",
+                          "tag": "select",
+                          "content": {
+                            "attributes": {
+                              "layout": "classic",
+                              "feedbackType": "unique",
+                              "score": 10,
+                              "required": false,
+                              "fullscreen": true,
+                              "attempts": 0,
+                              "feedbackCorrect": "Un bot de WhatsApp con IA automatiza la interacción con clientes, mejorando la atención y facilitando ventas sin intervención humana constante.",
+                              "feedbackIncorrect": "La respuesta correcta es que un bot de WhatsApp con IA automatiza la interacción con clientes para mejorar la atención y ventas."
+                            },
+                            "tagName": "select",
+                            "children": [
+                              {
+                                "tagName": "option",
+                                "textContent": "Un programa automatizado que interactúa con clientes en WhatsApp para ventas.",
+                                "attributes": {
+                                  "correct": true
+                                }
+                              },
+                              {
+                                "tagName": "option",
+                                "textContent": "Una persona que atiende clientes por WhatsApp manualmente.",
+                                "attributes": {
+                                  "correct": false
+                                }
+                              },
+                              {
+                                "tagName": "option",
+                                "textContent": "Una aplicación para enviar mensajes masivos sin personalización.",
+                                "attributes": {
+                                  "correct": false
+                                }
+                              },
+                              {
+                                "tagName": "option",
+                                "textContent": "Un sistema que solo envía promociones sin responder preguntas.",
+                                "attributes": {
+                                  "correct": false
+                                }
+                              }
+                            ],
+                            "textContent": "¿Qué es un bot de WhatsApp para ventas con inteligencia artificial?"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 4
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "robot",
+                "smartphone"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Beneficios de usar bots con IA en ventas por WhatsApp"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Descubre cómo un bot con inteligencia artificial puede transformar tu negocio en WhatsApp, ofreciendo atención inmediata y personalizada que mejora la experiencia de tus clientes y potencia tus ventas."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "point-list",
+                          "content": {
+                            "tagName": "point-list",
+                            "attributes": {
+                              "type": "numeric"
+                            },
+                            "styles": {},
+                            "textContent": "",
+                            "children": [
+                              {
+                                "tagName": "li",
+                                "children": [
+                                  {
+                                    "tagName": "h4",
+                                    "textContent": "Disponibilidad 24/7"
+                                  },
+                                  {
+                                    "tagName": "p",
+                                    "textContent": "Tu bot está siempre activo, atendiendo consultas y pedidos sin importar la hora, para que nunca pierdas una venta."
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "li",
+                                "children": [
+                                  {
+                                    "tagName": "h4",
+                                    "textContent": "Reducción de tiempos de respuesta"
+                                  },
+                                  {
+                                    "tagName": "p",
+                                    "textContent": "Responde al instante a tus clientes, evitando esperas que pueden hacer que pierdas su interés."
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "li",
+                                "children": [
+                                  {
+                                    "tagName": "h4",
+                                    "textContent": "Personalización de la comunicación"
+                                  },
+                                  {
+                                    "tagName": "p",
+                                    "textContent": "El bot adapta sus respuestas según las necesidades y preferencias de cada cliente, creando una experiencia única."
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "li",
+                                "children": [
+                                  {
+                                    "tagName": "h4",
+                                    "textContent": "Incremento en la tasa de conversión"
+                                  },
+                                  {
+                                    "tagName": "p",
+                                    "textContent": "Al ofrecer atención rápida y personalizada, aumentas la probabilidad de que los visitantes se conviertan en compradores."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/52fcf52e-b114-4f5a-944d-29c555551119.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>Beneficios de usar bots con IA en ventas por WhatsApp.</emphasis><break time='1s'/> Descubre cómo un bot con inteligencia artificial puede transformar tu negocio en WhatsApp, ofreciendo atención inmediata y personalizada que mejora la experiencia de tus clientes y potencia tus ventas. <break time='1s'/> Disponibilidad 24/7: Tu bot está siempre activo, atendiendo consultas y pedidos sin importar la hora, para que nunca pierdas una venta. Reducción de tiempos de respuesta: Responde al instante a tus clientes, evitando esperas que pueden hacer que pierdas su interés. Personalización de la comunicación: El bot adapta sus respuestas según las necesidades y preferencias de cada cliente, creando una experiencia única. Incremento en la tasa de conversión: Al ofrecer atención rápida y personalizada, aumentas la probabilidad de que los visitantes se conviertan en compradores.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 5
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "robot",
+                "person"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Bots de WhatsApp con IA vs Atención humana tradicional"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "grid",
+                          "columns": 3,
+                          "children": [
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Bot de WhatsApp atendiendo múltiples clientes simultáneamente",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "14rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "robot",
+                                    "smartphone"
+                                  ],
+                                  "src": "public/assets/photo-1775002003561-7ed71c820881.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Atención inmediata y constante"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Los bots con IA están disponibles 24/7, respondiendo al instante sin importar la hora. Pueden atender a muchos clientes a la vez sin cansancio ni errores, asegurando que nadie quede esperando."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Empleado humano atendiendo cliente con empatía",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "14rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "person",
+                                    "office"
+                                  ],
+                                  "src": "public/assets/photo-1484863137850-59afcfe05386.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Atención humana empática y flexible"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Los agentes humanos pueden entender emociones y adaptarse a situaciones complejas con creatividad. Sin embargo, su disponibilidad es limitada y pueden cometer errores por cansancio."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Bot y humano trabajando juntos para atención óptima",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "14rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "team",
+                                    "computer"
+                                  ],
+                                  "src": "public/assets/photo-1580983553600-c49a1d083f54.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Complementariedad para un servicio óptimo"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Combinar bots y atención humana permite aprovechar lo mejor de ambos: rapidez y disponibilidad del bot, junto con la empatía y flexibilidad del humano, mejorando la experiencia del cliente y eficiencia del negocio."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/d39def34-d155-497d-8ba5-aeccf34b285c.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>Bots de WhatsApp con IA vs Atención humana tradicional.</emphasis><break time='1s'/> Atención inmediata y constante. <break time='1s'/> Los bots con IA están disponibles 24/7, respondiendo al instante sin importar la hora. Pueden atender a muchos clientes a la vez sin cansancio ni errores, asegurando que nadie quede esperando. Atención humana empática y flexible. <break time='1s'/> Los agentes humanos pueden entender emociones y adaptarse a situaciones complejas con creatividad. Sin embargo, su disponibilidad es limitada y pueden cometer errores por cansancio. Complementariedad para un servicio óptimo. <break time='1s'/> Combinar bots y atención humana permite aprovechar lo mejor de ambos: rapidez y disponibilidad del bot, junto con la empatía y flexibilidad del humano, mejorando la experiencia del cliente y eficiencia del negocio.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 6
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "bot",
+                "whatsapp"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "tag": "sentence",
+                          "type": "challenge",
+                          "content": {
+                            "attributes": {
+                              "layout": "classic",
+                              "feedbackType": "unique",
+                              "score": 10,
+                              "required": false,
+                              "fullscreen": true,
+                              "attempts": 0,
+                              "feedbackCorrect": "Un bot de WhatsApp para ventas con IA automatiza la interacción con clientes, facilitando respuestas y compras sin intervención humana constante.",
+                              "feedbackIncorrect": "La respuesta correcta es que un bot de WhatsApp para ventas con IA automatiza la interacción con clientes, no requiere intervención humana constante."
+                            },
+                            "tagName": "sentence",
+                            "children": [
+                              {
+                                "tagName": "button",
+                                "textContent": "humana constante",
+                                "attributes": {
+                                  "correct": true
+                                }
+                              },
+                              {
+                                "tagName": "button",
+                                "textContent": "manual frecuente",
+                                "attributes": {
+                                  "correct": false
+                                }
+                              },
+                              {
+                                "tagName": "button",
+                                "textContent": "personalizada exclusiva",
+                                "attributes": {
+                                  "correct": false
+                                }
+                              },
+                              {
+                                "tagName": "button",
+                                "textContent": "limitada temporal",
+                                "attributes": {
+                                  "correct": false
+                                }
+                              }
+                            ],
+                            "textContent": "Un bot de WhatsApp para ventas con inteligencia artificial es un programa automatizado que interactúa con tus clientes a través de WhatsApp, respondiendo preguntas, ofreciendo productos y facilitando "
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 7
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "smartphone",
+                "chatbot"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Pasos para crear tu bot de ventas en WhatsApp con IA"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Crear un bot efectivo para ventas en WhatsApp con inteligencia artificial es más sencillo si sigues un proceso claro. Aquí te guío paso a paso para que tu bot atienda a tus clientes como un verdadero asistente virtual."
+                            }
+                          ]
+                        },
+                        {
+                          "type": "point-list",
+                          "content": {
+                            "tagName": "point-list",
+                            "attributes": {
+                              "type": "numeric"
+                            },
+                            "styles": {},
+                            "textContent": "",
+                            "children": [
+                              {
+                                "tagName": "li",
+                                "children": [
+                                  {
+                                    "tagName": "h4",
+                                    "textContent": "Define objetivos y público objetivo"
+                                  },
+                                  {
+                                    "tagName": "p",
+                                    "textContent": "Establece qué quieres lograr con tu bot y a quién va dirigido. Por ejemplo, aumentar ventas o mejorar atención a clientes jóvenes."
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "li",
+                                "children": [
+                                  {
+                                    "tagName": "h4",
+                                    "textContent": "Selecciona la plataforma adecuada"
+                                  },
+                                  {
+                                    "tagName": "p",
+                                    "textContent": "Elige una herramienta que permita crear bots con IA para WhatsApp, como Twilio o Landbot, que faciliten la integración y personalización."
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "li",
+                                "children": [
+                                  {
+                                    "tagName": "h4",
+                                    "textContent": "Diseña flujos de conversación"
+                                  },
+                                  {
+                                    "tagName": "p",
+                                    "textContent": "Crea respuestas automáticas basadas en preguntas frecuentes para que el bot guíe al cliente de forma natural y eficiente."
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "li",
+                                "children": [
+                                  {
+                                    "tagName": "h4",
+                                    "textContent": "Integra catálogo y sistemas"
+                                  },
+                                  {
+                                    "tagName": "p",
+                                    "textContent": "Conecta el bot con tu catálogo de productos y sistemas de gestión para mostrar opciones actualizadas y procesar pedidos automáticamente."
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/50808acb-80e3-4edd-97c5-4d7e9da6716e.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>Pasos para crear tu bot de ventas en WhatsApp con IA.</emphasis><break time='1s'/> Crear un bot efectivo para ventas en WhatsApp con inteligencia artificial es más sencillo si sigues un proceso claro. Aquí te guío paso a paso para que tu bot atienda a tus clientes como un verdadero asistente virtual. <break time='1s'/> Define objetivos y público objetivo: Establece qué quieres lograr con tu bot y a quién va dirigido. Por ejemplo, aumentar ventas o mejorar atención a clientes jóvenes. Selecciona la plataforma adecuada: Elige una herramienta que permita crear bots con IA para WhatsApp, como Twilio o Landbot, que faciliten la integración y personalización. Diseña flujos de conversación: Crea respuestas automáticas basadas en preguntas frecuentes para que el bot guíe al cliente de forma natural y eficiente. Integra catálogo y sistemas: Conecta el bot con tu catálogo de productos y sistemas de gestión para mostrar opciones actualizadas y procesar pedidos automáticamente.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 8
+            },
+            {
+              "type": "slide",
+              "layout": "accent_right",
+              "tags": [
+                "clothing",
+                "store"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-image",
+                      "src": "public/assets/photo-1441986300917-64674bd600d8.jpg",
+                      "altText": "clothing, store",
+                      "position": "right",
+                      "fit": "cover",
+                      "version": 1
+                    },
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Caso práctico: Cómo Ana aumentó sus ventas con un bot en WhatsApp"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Ana, dueña de una tienda de ropa, implementó un bot de WhatsApp con inteligencia artificial para atender consultas y tomar pedidos fuera del horario comercial. Su bot respondía dudas sobre tallas, colores y promociones, y guiaba a los clientes para completar la compra. Gracias a esta automatización, Ana logró aumentar sus ventas mensuales en un 30% y pudo dedicar más tiempo a diseñar nuevos productos, mientras el bot manejaba la atención diaria de manera eficiente."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/a090280c-c88c-4fde-a613-e84bc4abb52d.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>Caso práctico: Cómo Ana aumentó sus ventas con un bot en WhatsApp.</emphasis><break time='1s'/> Ana, dueña de una tienda de ropa, implementó un bot de WhatsApp con inteligencia artificial para atender consultas y tomar pedidos fuera del horario comercial. Su bot respondía dudas sobre tallas, colores y promociones, y guiaba a los clientes para completar la compra. Gracias a esta automatización, Ana logró aumentar sus ventas mensuales en un 30% y pudo dedicar más tiempo a diseñar nuevos productos, mientras el bot manejaba la atención diaria de manera eficiente.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 9
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "whatsapp",
+                "bot"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "tag": "true_false",
+                          "type": "challenge",
+                          "content": {
+                            "attributes": {
+                              "layout": "classic",
+                              "feedbackType": "unique",
+                              "score": 8,
+                              "required": false,
+                              "fullscreen": true,
+                              "attempts": 0
+                            },
+                            "tagName": "true_false",
+                            "children": [
+                              {
+                                "tagName": "button",
+                                "textContent": "Un bot de WhatsApp con IA puede atender consultas y tomar pedidos sin intervención humana constante.",
+                                "attributes": {
+                                  "correct": true
+                                }
+                              },
+                              {
+                                "tagName": "button",
+                                "textContent": "Los bots de WhatsApp no pueden integrarse con catálogos de productos para mostrar opciones personal.",
+                                "attributes": {
+                                  "correct": false
+                                }
+                              },
+                              {
+                                "tagName": "button",
+                                "textContent": "La atención humana es siempre más rápida y puede manejar múltiples clientes simultáneamente sin cans",
+                                "attributes": {
+                                  "correct": false
+                                }
+                              },
+                              {
+                                "tagName": "button",
+                                "textContent": "Los bots con IA ofrecen atención 24/7 y pueden mejorar la tasa de conversión en ventas.",
+                                "attributes": {
+                                  "correct": false
+                                }
+                              }
+                            ],
+                            "textContent": "Clasifica estas afirmaciones sobre bots de WhatsApp para ventas con inteligencia artificial como verdaderas o falsas."
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 10
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "chatbot",
+                "whatsapp"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Checklist para preparar tu bot de ventas en WhatsApp"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "grid",
+                          "columns": 4,
+                          "children": [
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Objetivos claros para el bot",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "10rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "checklist",
+                                    "goals"
+                                  ],
+                                  "src": "public/assets/photo-1754548930515-ac7eb978280d.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Define objetivos claros"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Antes de lanzar tu bot, asegúrate de tener bien definidos sus objetivos. Por ejemplo, ¿quieres que atienda consultas, tome pedidos o ambas cosas? Esto guiará su diseño y funcionalidad."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Bot respondiendo preguntas frecuentes",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "10rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "chatbot",
+                                    "questions"
+                                  ],
+                                  "src": "public/assets/photo-1676573408178-a5f280c3a320.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Verifica respuestas frecuentes"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Tu bot debe entender y responder correctamente las preguntas más comunes. Prueba con ejemplos reales para asegurarte de que la experiencia sea fluida y útil para tus clientes."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Integración con catálogo de productos",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "10rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "catalog",
+                                    "integration"
+                                  ],
+                                  "src": "public/assets/photo-1648134859187-71dadc9f815a.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Integra catálogo y ventas"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Es fundamental que el bot esté conectado a tu catálogo y sistema de ventas para mostrar productos actualizados y gestionar pedidos sin errores."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Prueba del bot con usuarios reales",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "10rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "testing",
+                                    "users"
+                                  ],
+                                  "src": "public/assets/photo-1549732565-d673b928da7f.jpg"
+                                },
+                                {
+                                  "type": "heading",
+                                  "tag": "h1",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Prueba con usuarios reales"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Antes de lanzar, realiza pruebas con clientes reales para detectar fallos y mejorar la interacción. Su feedback es clave para optimizar el bot."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/4fbe5b4b-ac62-49fd-a25c-0d489ba93742.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>Checklist para preparar tu bot de ventas en WhatsApp.</emphasis><break time='1s'/> Define objetivos claros. <break time='1s'/> Antes de lanzar tu bot, asegúrate de tener bien definidos sus objetivos. Por ejemplo, ¿quieres que atienda consultas, tome pedidos o ambas cosas? Esto guiará su diseño y funcionalidad. Verifica respuestas frecuentes. <break time='1s'/> Tu bot debe entender y responder correctamente las preguntas más comunes. Prueba con ejemplos reales para asegurarte de que la experiencia sea fluida y útil para tus clientes. Integra catálogo y ventas. <break time='1s'/> Es fundamental que el bot esté conectado a tu catálogo y sistema de ventas para mostrar productos actualizados y gestionar pedidos sin errores. Prueba con usuarios reales. <break time='1s'/> Antes de lanzar, realiza pruebas con clientes reales para detectar fallos y mejorar la interacción. Su feedback es clave para optimizar el bot.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 11
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "chatbot",
+                "smartphone"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Procesos simultáneos en un bot de ventas con IA"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "grid",
+                          "columns": 3,
+                          "children": [
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Análisis de mensajes con inteligencia artificial",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "14rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "artificialintelligence",
+                                    "chat"
+                                  ],
+                                  "src": "public/assets/photo-1694903089438-bf28d4697d9a.jpg"
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "El bot utiliza inteligencia artificial para analizar cada mensaje que recibe. Esto significa que identifica la intención del cliente, como una pregunta sobre un producto o una solicitud de soporte, para responder de forma adecuada y rápida."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Respuesta automática personalizada",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "14rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "smartphone",
+                                    "message"
+                                  ],
+                                  "src": "public/assets/photo-1569144157588-6fda14ac9ff7.jpg"
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Luego, el bot responde automáticamente con información relevante o preguntas que aclaran dudas. Por ejemplo, si preguntas por tallas disponibles, el bot te ofrecerá opciones o pedirá detalles para ayudarte mejor."
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "grid-cell",
+                              "justifyContent": "flex-start",
+                              "children": [
+                                {
+                                  "type": "image",
+                                  "altText": "Registro y seguimiento de pedidos",
+                                  "alignment": "center",
+                                  "objectFit": "cover",
+                                  "height": "14rem",
+                                  "width": "100%",
+                                  "tags": [
+                                    "notebook",
+                                    "order"
+                                  ],
+                                  "src": "public/assets/photo-1583100391808-6534b9adafd7.jpg"
+                                },
+                                {
+                                  "type": "paragraph",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "text": "Finalmente, el bot registra cada interacción y hace seguimiento del estado del pedido. Así, puede actualizarte sobre tu compra o generar reportes para que tú controles todo sin complicaciones."
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/490d0d6e-1a8a-4284-9d7c-6c6d62582e6b.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>Procesos simultáneos en un bot de ventas con IA.</emphasis><break time='1s'/> <break time='1s'/> El bot utiliza inteligencia artificial para analizar cada mensaje que recibe. Esto significa que identifica la intención del cliente, como una pregunta sobre un producto o una solicitud de soporte, para responder de forma adecuada y rápida. <break time='1s'/> Luego, el bot responde automáticamente con información relevante o preguntas que aclaran dudas. Por ejemplo, si preguntas por tallas disponibles, el bot te ofrecerá opciones o pedirá detalles para ayudarte mejor. <break time='1s'/> Finalmente, el bot registra cada interacción y hace seguimiento del estado del pedido. Así, puede actualizarte sobre tu compra o generar reportes para que tú controles todo sin complicaciones.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 12
+            },
+            {
+              "type": "slide",
+              "layout": "empty",
+              "tags": [
+                "whatsapp",
+                "bot"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "tag": "couples",
+                          "type": "challenge",
+                          "content": {
+                            "attributes": {
+                              "layout": "classic",
+                              "feedbackType": "unique",
+                              "score": 8,
+                              "required": false,
+                              "fullscreen": true,
+                              "attempts": 0
+                            },
+                            "tagName": "couples",
+                            "children": [
+                              {
+                                "tagName": "button",
+                                "textContent": "Procesamiento de lenguaje natural (PLN)",
+                                "attributes": {
+                                  "correct": true
+                                },
+                                "children": [
+                                  {
+                                    "tagName": "button",
+                                    "textContent": "Permite que el bot entienda y responda mensajes de"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "button",
+                                "textContent": "Integración con catálogos de productos",
+                                "attributes": {
+                                  "correct": false
+                                },
+                                "children": [
+                                  {
+                                    "tagName": "button",
+                                    "textContent": "Muestra opciones personalizadas de productos al"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "button",
+                                "textContent": "Automatización de respuestas frecuentes",
+                                "attributes": {
+                                  "correct": false
+                                },
+                                "children": [
+                                  {
+                                    "tagName": "button",
+                                    "textContent": "Agiliza la atención respondiendo preguntas comunes"
+                                  }
+                                ]
+                              },
+                              {
+                                "tagName": "button",
+                                "textContent": "Seguimiento de pedidos",
+                                "attributes": {
+                                  "correct": false
+                                },
+                                "children": [
+                                  {
+                                    "tagName": "button",
+                                    "textContent": "Mantiene al cliente informado sobre el estado de"
+                                  }
+                                ]
+                              }
+                            ],
+                            "textContent": "Relaciona las funciones clave de un bot de WhatsApp para ventas con su descripción"
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 13
+            },
+            {
+              "type": "slide",
+              "layout": "accent_right",
+              "tags": [
+                "whatsapp",
+                "bot"
+              ],
+              "children": [
+                {
+                  "type": "slide-wrapper",
+                  "children": [
+                    {
+                      "type": "slide-image",
+                      "src": "public/assets/photo-1684835609054-dd3d681cf012.jpg",
+                      "altText": "whatsapp, bot",
+                      "position": "right",
+                      "fit": "cover",
+                      "version": 1
+                    },
+                    {
+                      "type": "slide-content",
+                      "children": [
+                        {
+                          "type": "heading",
+                          "tag": "h1",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Resumen de Introducción a bots de WhatsApp para ventas con IA"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "paragraph",
+                          "children": [
+                            {
+                              "type": "text",
+                              "text": "Los bots de WhatsApp con inteligencia artificial son programas que automatizan la atención a clientes, respondiendo preguntas y facilitando compras sin intervención humana constante. Esto mejora la experiencia y aumenta tus ventas."
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "speechUrl": "public/assets/7736dbd2-adb8-4eed-9060-1aecef96ffcb.mp3",
+              "speechOptions": {
+                "text": "<speak><emphasis level='moderate'>Resumen de Introducción a bots de WhatsApp para ventas con IA.</emphasis><break time='1s'/> Los bots de WhatsApp con inteligencia artificial son programas que automatizan la atención a clientes, respondiendo preguntas y facilitando compras sin intervención humana constante. Esto mejora la experiencia y aumenta tus ventas.</speak>",
+                "language": "es-US",
+                "voice": "es-US-Standard-A",
+                "pitch": "1.0",
+                "speakingRate": "0.9",
+                "decoupled": false,
+                "enabled": true
+              },
+              "version": 1,
+              "indent": 0,
+              "slideNumber": 14
+            }
+          ]
+        }
+      },
+      "position": 0,
+      "courseId": "69e945505735ac155da424ca",
+      "transactionId": "69e945515735ac155da424cb",
+      "createdAt": "2026-04-22T22:01:53.498Z",
+      "updatedAt": "2026-04-22T22:03:56.666Z",
+      "deletedAt": null,
+      "cards": []
+    },
+    {
+      "data": null,
+      "contents": [],
+      "prompts": null,
+      "settings": null,
+      "id": "69e94551ee225f952f5747da",
+      "name": "Diseño y estructura de tu bot para WhatsApp",
+      "topicId": null,
+      "type": "contents",
+      "markdown": "",
+      "schema": null,
+      "position": 1,
+      "courseId": "69e945505735ac155da424ca",
+      "transactionId": "69e94551ee225f952f5747d8",
+      "createdAt": "2026-04-22T22:01:53.724Z",
+      "updatedAt": "2026-04-22T22:20:37.593Z",
+      "deletedAt": null,
+      "cards": []
+    },
+    {
+      "data": null,
+      "contents": [],
+      "prompts": null,
+      "settings": null,
+      "id": "69e94551ee225f952f5747dc",
+      "name": "Programación práctica de tu bot para WhatsApp",
+      "topicId": null,
+      "type": "contents",
+      "markdown": "",
+      "schema": null,
+      "position": 2,
+      "courseId": "69e945505735ac155da424ca",
+      "transactionId": "69e94551ee225f952f5747db",
+      "createdAt": "2026-04-22T22:01:53.830Z",
+      "updatedAt": "2026-04-22T22:20:37.617Z",
+      "deletedAt": null,
+      "cards": []
+    },
+    {
+      "data": null,
+      "contents": [],
+      "prompts": null,
+      "settings": null,
+      "id": "69e94551ee225f952f5747d9",
+      "name": "Optimización y pruebas de tu bot para WhatsApp",
+      "topicId": null,
+      "type": "contents",
+      "markdown": "",
+      "schema": null,
+      "position": 3,
+      "courseId": "69e945505735ac155da424ca",
+      "transactionId": "69e94551ee225f952f5747d7",
+      "createdAt": "2026-04-22T22:01:53.646Z",
+      "updatedAt": "2026-04-22T22:20:37.639Z",
+      "deletedAt": null,
+      "cards": []
+    },
+    {
+      "data": null,
+      "contents": [],
+      "prompts": null,
+      "settings": null,
+      "id": "69e9455aee225f952f5747de",
+      "name": "Evaluación Final",
+      "topicId": null,
+      "type": "evaluation",
+      "markdown": "",
+      "schema": null,
+      "position": 4,
+      "courseId": "69e945505735ac155da424ca",
+      "transactionId": "69e9455aee225f952f5747dd",
+      "createdAt": "2026-04-22T22:02:02.407Z",
+      "updatedAt": "2026-04-22T22:20:37.661Z",
+      "deletedAt": null,
+      "cards": []
+    }
+  ],
+  "workspacePlan": {
+    "limits": {
+      "credits": 500,
+      "accounts": null,
+      "gallery": true,
+      "storage": null,
+      "workspaces": 3,
+      "rag_courses": 5,
+      "lessons_per_course": 10,
+      "ai_courses": null,
+      "workspace_seats": null,
+      "themes": 5
+    },
+    "customization": {
+      "share": true,
+      "embed": true,
+      "integrations": true,
+      "email": true,
+      "download": true,
+      "branding": true,
+      "collaborate": true,
+      "editor": true,
+      "watermark": true,
+      "themes": true,
+      "user_settings": false,
+      "share_workspace": true,
+      "share_gallery": true,
+      "access_api": false,
+      "bulk_operations": false,
+      "reviewer_mode": false,
+      "copy_course": null
+    },
+    "ai": {
+      "tts": true,
+      "images": true,
+      "rag": true,
+      "card": true,
+      "video": true,
+      "autoscript": true,
+      "themes": true
+    },
+    "support": {
+      "live": true,
+      "cs": true,
+      "sla": "standard",
+      "onboarding": true
+    },
+    "remote": null,
+    "id": "69e238fc485b7f12d79c516e",
+    "name": "Trial",
+    "code": "trial",
+    "externalCode": null,
+    "price": 0,
+    "enabled": true,
+    "createdAt": "2026-04-09T20:19:11.204Z",
+    "updatedAt": "2026-04-09T20:19:11.204Z",
+    "data": null,
+    "remoteJson": null
+  },
+  "viewerRole": "logged_user"
+}
